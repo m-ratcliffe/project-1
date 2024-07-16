@@ -18,7 +18,7 @@ def blur(img, currentBlur):
     return img.filter(ImageFilter.BoxBlur(blurFactor))
 
 def getImage(settings_update):
-    filenames = filedialog.askopenfilenames(initialdir = "/home/kali/Downloads/project-1-main/Project",#Change to Windows pictures folder
+    filenames = filedialog.askopenfilenames(initialdir = "C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project",#Change to Windows pictures folder
             title = "Select a File",#https://www.geeksforgeeks.org/file-explorer-in-python-using-tkinter/
             filetypes = (("Image files",
                         "*.jpg *.jpeg *.png"),))
