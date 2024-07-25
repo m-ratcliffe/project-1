@@ -10,8 +10,10 @@ void setup()
 void loop() 
 {
   //Scan for resistors being placed down
-  Serial.println("A1:" + String(analogRead(A_1)));
-  delay(500);
+  if (analogRead(A_1) != 0){
+    Serial.println("A1:" + String(analogRead(A_1)));
+    delay(500);
+  }
 
   //Commands passed from Python
   if (Serial.available() > 0)

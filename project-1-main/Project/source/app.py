@@ -2,12 +2,12 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
 import functions
+import data
+import arduino_interface
+import threading
 
 
 class myGUI:
-    def settings_update(self, type, new_settings):
-        if type == "image":
-            self.settings["image"] = new_settings
 
     def __init__(self):
 
@@ -20,7 +20,6 @@ class myGUI:
         self.start.pack(pady=20)
 
         self.setting = tk.Button(self.window, text="Settings", font=("Arial", 18), width=10 , command=self.settingButtons)
-        self.settings = {"image": None}
         self.setting.pack(pady=20)
 
         self.exit = tk.Button(self.window, text="Exit", font=("Arial", 18), width=10 , command=self.closeMain)
@@ -38,11 +37,11 @@ class myGUI:
         self.runWindow.geometry("800x500")
         self.runWindow.title("In-Game")
         
-        if self.settings["image"] == None:
-            default_image = Image.open("./Project/default.jpg")
+        if data.get_data("imageList") == None:
+            default_image = Image.open(r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
             default_image = default_image.resize((400, 300), Image.LANCZOS)
         else:
-            default_image = Image.open(self.settings["image"][0])
+            default_image = Image.open(data.get_data("currentImage"))
             default_image = default_image.resize((400, 300), Image.LANCZOS)
         default_tk = ImageTk.PhotoImage(functions.blur(default_image, 9))
         
@@ -61,6 +60,20 @@ class myGUI:
         self.skip.pack(pady=5)
 
 
+        arduino_thread = threading.Thread(target=arduino_interface.arduino_connect)
+        arduino_thread.daemon = True
+        arduino_thread.start()
+
+        update_image_thread = threading.Thread(target=self.update_image)
+        update_image_thread.daemon = True
+        update_image_thread.start()
+
+    def update_image(self):
+        if functions.process_arduino_data() == True:
+            default_tk = ImageTk.PhotoImage(functions.blur(data.get_data("currentImage"), data.get_data("blurFactor")))
+        #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
+            
+
     def closeRun(self):
         self.runWindow.destroy()
 
@@ -74,7 +87,7 @@ class myGUI:
         self.gridSettings = tk.Button(self.stwindow, text="Grid Settings", font=("Arial", 18), width=15)
         self.gridSettings.pack(pady=5)
 
-        self.image = tk.Button(self.stwindow, text="Choose Images", font=("Arial", 18), width=15, command=lambda: functions.getImage(self.settings_update))
+        self.image = tk.Button(self.stwindow, text="Choose Images", font=("Arial", 18), width=15, command=functions.getImage)
         self.image.pack(pady=5)
 
         self.stickSettings = tk.Button(self.stwindow, text="Stick Settings", font=("Arial", 18), width=15)
