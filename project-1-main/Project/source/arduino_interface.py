@@ -1,6 +1,6 @@
 import serial.tools.list_ports
-import data
-import config
+import data, config
+
 
 def portConfig():
     ports = serial.tools.list_ports.comports() #https://youtu.be/AHr94RtMj1A?si=uIVSIY6_S2sPDFUR
@@ -18,7 +18,7 @@ def portConfig():
             portVar = "COM" + str(comPort)
             config.write_config("portVar", portVar)
 
-def arduino_connect(): #threading required
+def arduino_connect():
     serialInst = serial.Serial()  
     serialInst.baudrate = 9600
     serialInst.port = config.get_config("portVar")
@@ -26,7 +26,9 @@ def arduino_connect(): #threading required
 
     while True:
         if serialInst.in_waiting:
-            packet = serialInst.readline().decode("utf")
-            print(packet, end="")
+            packet = serialInst.readline().decode("utf").rstrip("\r\n")
             if packet != 0:
-                data.write_data("sensorData", packet)
+                with config.data_lock:
+                    data.write_data("sensorData", packet)
+                    packet = 0
+

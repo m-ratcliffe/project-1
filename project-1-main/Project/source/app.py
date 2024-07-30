@@ -1,10 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
-import functions
-import data
-import arduino_interface
-import threading
+import functions, data, time, threading
+import arduino_interface, config
 
 
 class myGUI:
@@ -37,19 +35,45 @@ class myGUI:
         self.runWindow.geometry("800x500")
         self.runWindow.title("In-Game")
         
-        if data.get_data("imageList") == None:
-            default_image = Image.open(r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
+        def update_image_threading():
+            while True:
+                result = data.get_data("correctUserAction")
+                if result == True:
+                    update_image(data.get_data("blurFactor"))
+                    with config.data_lock:
+                        data.write_data("correctUserAction", None)
+                #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
+
+        def update_image(blurFactor):
+            print(data.get_data("blurFactor"))
+            if data.get_data("imageList") == None:
+                default_image = Image.open(r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
+                with config.data_lock:
+                    data.write_data("currentImage", r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
+            else:
+                default_image = Image.open(data.get_data("currentImage"))
+
             default_image = default_image.resize((400, 300), Image.LANCZOS)
-        else:
-            default_image = Image.open(data.get_data("currentImage"))
-            default_image = default_image.resize((400, 300), Image.LANCZOS)
-        default_tk = ImageTk.PhotoImage(functions.blur(default_image, 9))
+            blurredImg = functions.blur(default_image, blurFactor)
+            blurredImg = ImageTk.PhotoImage(blurredImg)
+            
+            if hasattr(self, "image_label"):
+                self.image_label.configure(image=blurredImg)
+                self.image_label.image = blurredImg
+            else:
+                self.image_label = tk.Label(self.runWindow, image=blurredImg)
+                self.image_label.image = blurredImg #https://stackoverflow.com/questions/27430648/tkinter-vanishing-photoimage-issue
+                self.image_label.pack()
+
+            if data.get_data("blurFactor") == 1:
+                time.sleep(3)
+                if data.get_data("imageList") is not None:
+                    with config.data_lock:
+                        data.write_data("currentImage", data.get_data("imageList")[data.get_data("imgNum")])
+                update_image(9)
+
+        update_image(9)
         
-
-        self.image = tk.Label(self.runWindow, image=default_tk)
-        self.image.image = default_tk #https://stackoverflow.com/questions/27430648/tkinter-vanishing-photoimage-issue
-        self.image.pack()
-
         self.position = tk.Label(self.runWindow, text=functions.getPosition(), font=("Arial", 18))
         self.position.pack()
 
@@ -64,15 +88,15 @@ class myGUI:
         arduino_thread.daemon = True
         arduino_thread.start()
 
-        update_image_thread = threading.Thread(target=self.update_image)
+        update_image_thread = threading.Thread(target=update_image_threading)
         update_image_thread.daemon = True
         update_image_thread.start()
 
-    def update_image(self):
-        if functions.process_arduino_data() == True:
-            default_tk = ImageTk.PhotoImage(functions.blur(data.get_data("currentImage"), data.get_data("blurFactor")))
-        #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
-            
+        arduino_data = threading.Thread(target=functions.process_arduino_data)
+        arduino_data.daemon = True
+        arduino_data.start()
+
+                
 
     def closeRun(self):
         self.runWindow.destroy()

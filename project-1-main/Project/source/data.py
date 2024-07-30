@@ -1,10 +1,12 @@
 shared_data = {
-    "sensorData" : None,
+    "sensorData" : 0,
     "stick" : None,
     "hole" : None,
     "imageList" : None,
     "currentImage": None,
-    "blurFactor" : None
+    "blurFactor" : None,
+    "imgNum" : 0,
+    "correctUserAction": None,
 }
 
 def get_data(key):
