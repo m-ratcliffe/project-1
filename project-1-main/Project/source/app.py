@@ -48,17 +48,6 @@ class myGUI:
             print(f"globalBlur: {data.get_data('blurFactor')}")
             print(f"updateImg: {blurFactor}")
 
-            if data.get_data("blurFactor") == 1:
-                #time.sleep(3)
-                if data.get_data("imageList") is not None:
-                    imgNum = data.get_data("imgNum")
-                    imgNum += 1
-                    with config.data_lock:
-                        data.write_data("imgNum", imgNum)
-                    imgList = data.get_data("imageList")
-                    currentImg = imgList[imgNum]
-                    with config.data_lock:
-                        data.write_data("currentImage", currentImg)
 
             if data.get_data("imageList") == None:
                 print("failure")
@@ -81,8 +70,20 @@ class myGUI:
                 self.image_label.image = blurredImg #https://stackoverflow.com/questions/27430648/tkinter-vanishing-photoimage-issue
                 self.image_label.pack()
 
+            if blurFactor == 1:
+                #time.sleep(3)
+                if data.get_data("imageList") is not None:
+                    imgNum = data.get_data("imgNum")
+                    imgNum += 1
+                    with config.data_lock:
+                        data.write_data("imgNum", imgNum)
+                    imgList = data.get_data("imageList")
+                    currentImg = imgList[imgNum]
+                    with config.data_lock:
+                        data.write_data("currentImage", currentImg)
 
-        update_image(11)
+
+        update_image(data.get_data("blurFactor"))
         
         self.position = tk.Label(self.runWindow, text=functions.getPosition(), font=("Arial", 18))
         self.position.pack()
@@ -118,11 +119,11 @@ class myGUI:
         self.stwindow.geometry("300x500")
         self.stwindow.title("Settings")
 
-        self.gridSettings = tk.Button(self.stwindow, text="Grid Settings", font=("Arial", 18), width=15)
-        self.gridSettings.pack(pady=5)
-
         self.image = tk.Button(self.stwindow, text="Choose Images", font=("Arial", 18), width=15, command=functions.getImage)
         self.image.pack(pady=5)
+
+        self.gridSettings = tk.Button(self.stwindow, text="Grid Settings", font=("Arial", 18), width=15)
+        self.gridSettings.pack(pady=5)
 
         self.stickSettings = tk.Button(self.stwindow, text="Stick Settings", font=("Arial", 18), width=15)
         self.stickSettings.pack(pady=5)

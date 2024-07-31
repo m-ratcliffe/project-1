@@ -6,13 +6,15 @@ import data, config
 
 def getPosition():
     var = Random()
-
-    hole = var.choice(["A1"])#, "A2", "A3", "A4", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4", "D1", "D2", "D3", "D4"])
-    stick = var.choice(["Red"])#, "Green", "Blue", "Yellow"])
-    position = "Place the " + stick + " Stick in Hole " + hole
+    
+    hole = config.get_config("hole")
+    stick = config.get_config("stick")
+    randHole = var.choice(hole)
+    randStick = var.choice(stick)
+    position = "Place the " + randStick + " Stick in Hole " + randHole
     with config.data_lock:
-        data.write_data("stick", stick)
-        data.write_data("hole", hole)
+        data.write_data("stick", randStick)
+        data.write_data("hole", randHole)
     return position
 
 def blur(img, currentBlur):
