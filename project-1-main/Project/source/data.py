@@ -4,7 +4,7 @@ shared_data = {
     "hole" : None,
     "imageList" : None,
     "currentImage": None,
-    "blurFactor" : 11,
+    "blurFactor" : 9,
     "imgNum" : 0,
     "correctUserAction": None,
 }

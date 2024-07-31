@@ -45,17 +45,9 @@ class myGUI:
                 #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
 
         def update_image(blurFactor):
-            print(f"globalBlur: {data.get_data('blurFactor')}")
-            print(f"updateImg: {blurFactor}")
-
-
             if data.get_data("imageList") == None:
-                print("failure")
-                default_image = Image.open(r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
-                with config.data_lock:
-                    data.write_data("currentImage", r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
+                default_image = Image.open(config.get_config("defaultImg"))          
             else:
-                print(data.get_data("currentImage"))
                 default_image = Image.open(data.get_data("currentImage"))
 
             default_image = default_image.resize((400, 300), Image.LANCZOS)
@@ -71,7 +63,6 @@ class myGUI:
                 self.image_label.pack()
 
             if blurFactor == 1:
-                #time.sleep(3)
                 if data.get_data("imageList") is not None:
                     imgNum = data.get_data("imgNum")
                     imgNum += 1

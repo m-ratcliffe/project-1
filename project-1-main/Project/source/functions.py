@@ -18,20 +18,19 @@ def getPosition():
     return position
 
 def blur(img, currentBlur):
-    print(f"blurFunc: {currentBlur}")
     if currentBlur == 1:
         with config.data_lock:
-            data.write_data("blurFactor", 11)
+            data.write_data("blurFactor", 9)
         return img
-    blurFactor = currentBlur - 2
+    blurred_img = img.filter(ImageFilter.BoxBlur(currentBlur))
+    blurFactor = currentBlur - config.get_config("blurIncrement")
     with config.data_lock:
         data.write_data("blurFactor", blurFactor)
-    blurred_img = img.filter(ImageFilter.BoxBlur(blurFactor))
     return blurred_img
 
 
 def getImage():
-    filenames = filedialog.askopenfilenames(initialdir = r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project",
+    filenames = filedialog.askopenfilenames(initialdir = config.get_config("initialDir"),
             title = "Select a File",#https://www.geeksforgeeks.org/file-explorer-in-python-using-tkinter/
             filetypes = (("Image files",
                         "*.jpg *.jpeg *.png"),))
@@ -50,7 +49,6 @@ def process_arduino_data():
                     stick = "Red"
 
                 if stick == data.get_data("stick") and hole == data.get_data("hole"):
-                    #print("condition met")
                     with config.data_lock:
                         data.write_data("correctUserAction", True)
                 with config.data_lock:
