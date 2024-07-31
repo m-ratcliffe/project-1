@@ -16,19 +16,15 @@ def getPosition():
     return position
 
 def blur(img, currentBlur):
+    print(f"blurFunc: {currentBlur}")
     if currentBlur == 1:
-        print("success")
-        imgNum = data.get_data("imgNum")
-        imgNum += 1
-        print(imgNum)
         with config.data_lock:
-            data.write_data("imgNum", imgNum)
-            #data.write_data("blurFactor", 1)
+            data.write_data("blurFactor", 11)
         return img
     blurFactor = currentBlur - 2
     with config.data_lock:
         data.write_data("blurFactor", blurFactor)
-    blurred_img = img.filter(ImageFilter.BoxBlur(currentBlur))
+    blurred_img = img.filter(ImageFilter.BoxBlur(blurFactor))
     return blurred_img
 
 
@@ -47,6 +43,7 @@ def process_arduino_data():
                 arduinoData = data.get_data("sensorData")
                 hole, stickVal = arduinoData.split(":")
                 stickVal = int(stickVal)
+                stick = None
                 if stickVal >= 505 and stickVal <= 515:
                     stick = "Red"
 

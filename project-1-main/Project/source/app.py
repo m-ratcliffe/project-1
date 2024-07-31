@@ -45,12 +45,28 @@ class myGUI:
                 #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
 
         def update_image(blurFactor):
-            print(data.get_data("blurFactor"))
+            print(f"globalBlur: {data.get_data('blurFactor')}")
+            print(f"updateImg: {blurFactor}")
+
+            if data.get_data("blurFactor") == 1:
+                #time.sleep(3)
+                if data.get_data("imageList") is not None:
+                    imgNum = data.get_data("imgNum")
+                    imgNum += 1
+                    with config.data_lock:
+                        data.write_data("imgNum", imgNum)
+                    imgList = data.get_data("imageList")
+                    currentImg = imgList[imgNum]
+                    with config.data_lock:
+                        data.write_data("currentImage", currentImg)
+
             if data.get_data("imageList") == None:
+                print("failure")
                 default_image = Image.open(r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
                 with config.data_lock:
                     data.write_data("currentImage", r"C:\Users\micha.DESKTOP-IHJJH3S\Desktop\Final Project Git\project-1\project-1-main\Project\default.jpg")
             else:
+                print(data.get_data("currentImage"))
                 default_image = Image.open(data.get_data("currentImage"))
 
             default_image = default_image.resize((400, 300), Image.LANCZOS)
@@ -65,14 +81,8 @@ class myGUI:
                 self.image_label.image = blurredImg #https://stackoverflow.com/questions/27430648/tkinter-vanishing-photoimage-issue
                 self.image_label.pack()
 
-            if data.get_data("blurFactor") == 1:
-                time.sleep(3)
-                if data.get_data("imageList") is not None:
-                    with config.data_lock:
-                        data.write_data("currentImage", data.get_data("imageList")[data.get_data("imgNum")])
-                update_image(9)
 
-        update_image(9)
+        update_image(11)
         
         self.position = tk.Label(self.runWindow, text=functions.getPosition(), font=("Arial", 18))
         self.position.pack()
