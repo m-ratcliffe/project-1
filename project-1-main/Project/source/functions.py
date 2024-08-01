@@ -1,21 +1,7 @@
-from random import Random
 from PIL import ImageFilter, Image, ImageTk
 from tkinter import filedialog
 import data, config
 
-
-def getPosition():
-    var = Random()
-    
-    hole = config.get_config("hole")
-    stick = config.get_config("stick")
-    randHole = var.choice(hole)
-    randStick = var.choice(stick)
-    position = "Place the " + randStick + " Stick in Hole " + randHole
-    with config.data_lock:
-        data.write_data("stick", randStick)
-        data.write_data("hole", randHole)
-    return position
 
 def blur(img, currentBlur):
     if currentBlur == 1:
