@@ -4,7 +4,7 @@ from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
 import functions, data, time, threading
 import arduino_interface, config
-
+########################CREATE COMMENTS FOR CLARITY################################################
 
 class myGUI:
 
@@ -41,10 +41,27 @@ class myGUI:
                 result = data.get_data("correctUserAction")
                 if result == True:
                     update_image(data.get_data("blurFactor"))
-                    random()
                     with config.data_lock:
                         data.write_data("correctUserAction", None)
                 #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
+
+        def rand():
+            var = Random()
+    
+            hole = config.get_config("hole")
+            stick = config.get_config("stick")
+            randHole = var.choice(hole)
+            randStick = var.choice(stick)
+            position = "Place the " + randStick + " Stick in Hole " + randHole
+            with config.data_lock:
+                data.write_data("stick", randStick)
+                data.write_data("hole", randHole)
+
+            if hasattr(self, "position"):
+                self.position.configure(text=position)
+            else:
+                self.position = tk.Label(self.runWindow, text=position, font=("Arial", 18))
+                self.position.pack()
 
         def update_image(blurFactor):
             if data.get_data("imageList") == None:
@@ -74,35 +91,17 @@ class myGUI:
                     currentImg = imgList[imgNum]
                     with config.data_lock:
                         data.write_data("currentImage", currentImg)
+            rand()
         update_image(data.get_data("blurFactor"))
-        
-        def random():
-            var = Random()
     
-            hole = config.get_config("hole")
-            stick = config.get_config("stick")
-            randHole = var.choice(hole)
-            randStick = var.choice(stick)
-            position = "Place the " + randStick + " Stick in Hole " + randHole
-            with config.data_lock:
-                data.write_data("stick", randStick)
-                data.write_data("hole", randHole)
 
-            if hasattr(self, "position"):
-                self.position.configure(text=position)
-            else:
-                self.position = tk.Label(self.runWindow, text=position, font=("Arial", 18))
-                self.position.pack()
-        random()
-    
+        self.skip = tk.Button(self.runWindow, text="Next", font=("Arial", 18), width=15)
+        self.skip.pack(pady=5)
 
         self.close = tk.Button(self.runWindow, text="Close", font=("Arial", 18), width=15, command=self.closeRun)
         self.close.pack(pady=5)
 
-        self.skip = tk.Button(self.runWindow, text="Skip", font=("Arial", 18), width=15)
-        self.skip.pack(pady=5)
-
-
+        #Creates and starts the Threads       
         arduino_thread = threading.Thread(target=arduino_interface.arduino_connect)
         arduino_thread.daemon = True
         arduino_thread.start()
