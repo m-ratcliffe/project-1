@@ -7,6 +7,7 @@ shared_data = {
     "blurFactor" : 9,
     "imgNum" : 0,
     "correctUserAction": None,
+    "userCheck" : False
 }
 
 def get_data(key):

@@ -1,5 +1,6 @@
 import serial.tools.list_ports
-import data, config
+import data, config, time
+from config import logger
 
 
 def portConfig():
@@ -28,7 +29,11 @@ def arduino_connect():
         if serialInst.in_waiting:
             packet = serialInst.readline().decode("utf").rstrip("\r\n")
             if packet != 0:
+                logger.debug("arduino_connect attempting to aquire data lock")
                 with config.data_lock:
+                    logger.debug("arduino_connect aquired data lock")
                     data.write_data("sensorData", packet)
-                    packet = 0
+                logger.debug("arduino_connect released data lock")
+                packet = 0
+            time.sleep(0.1)
 

@@ -4,7 +4,9 @@ from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
 import functions, data, time, threading
 import arduino_interface, config
+from config import logger
 ########################CREATE COMMENTS FOR CLARITY################################################
+
 
 class myGUI:
 
@@ -39,10 +41,15 @@ class myGUI:
         def update_image_threading():
             while True:
                 result = data.get_data("correctUserAction")
-                if result == True:
+                next = data.get_data("userCheck")
+                if result == True and next == False:
                     update_image(data.get_data("blurFactor"))
+                    logger.debug("update_image_threading attempting to aquire data lock")
                     with config.data_lock:
+                        logger.debug("update_image_threading aquired data lock")
                         data.write_data("correctUserAction", None)
+                    logger.debug("update_image_threading released data lock")
+                time.sleep(0.1)
                 #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
 
         def rand():
@@ -53,9 +60,12 @@ class myGUI:
             randHole = var.choice(hole)
             randStick = var.choice(stick)
             position = "Place the " + randStick + " Stick in Hole " + randHole
+            logger.debug("rand attempting to aquire data lock")
             with config.data_lock:
+                logger.debug("rand data lock aquired")
                 data.write_data("stick", randStick)
                 data.write_data("hole", randHole)
+            logger.debug("rand data lock released")
 
             if hasattr(self, "position"):
                 self.position.configure(text=position)
@@ -81,21 +91,29 @@ class myGUI:
                 self.image_label.image = blurredImg #https://stackoverflow.com/questions/27430648/tkinter-vanishing-photoimage-issue
                 self.image_label.pack()
 
-            if blurFactor == 1:
-                if data.get_data("imageList") is not None:
-                    imgNum = data.get_data("imgNum")
-                    imgNum += 1
-                    with config.data_lock:
-                        data.write_data("imgNum", imgNum)
-                    imgList = data.get_data("imageList")
-                    currentImg = imgList[imgNum]
-                    with config.data_lock:
-                        data.write_data("currentImage", currentImg)
             rand()
         update_image(data.get_data("blurFactor"))
     
+        def nextButton():
+            logger.debug("nextButton attempting to aquire data lock")
+            with config.data_lock:
+                logger.debug("nextButton aquired data lock")
+                data.write_data("userCheck", False)
+                data.write_data("blurFactor", 9)
 
-        self.skip = tk.Button(self.runWindow, text="Next", font=("Arial", 18), width=15)
+                if data.get_data("imageList") is not None:
+                    imgNum = data.get_data("imgNum")
+                    imgNum += 1
+                    imgList = data.get_data("imageList")
+                    imgListLen = len(imgList) - 1
+                    if imgNum > imgListLen:
+                        imgNum = 0
+                    data.write_data("imgNum", imgNum)
+                    currentImg = imgList[imgNum]
+                    data.write_data("currentImage", currentImg)
+            logger.debug("nextButton released data lock")
+
+        self.skip = tk.Button(self.runWindow, text="Next", font=("Arial", 18), width=15, command=nextButton)
         self.skip.pack(pady=5)
 
         self.close = tk.Button(self.runWindow, text="Close", font=("Arial", 18), width=15, command=self.closeRun)
