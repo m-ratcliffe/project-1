@@ -586,3 +586,1517 @@
 2024-08-13 15:17:59,359 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
 2024-08-13 15:17:59,359 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
 2024-08-13 15:17:59,359 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 18:38:45,468 - MainThread - getImage attempting to aquire data lock
+2024-08-13 18:38:45,468 - MainThread - getImage aquired data lock
+2024-08-13 19:01:30,874 - MainThread - getImage attempting to aquire data lock
+2024-08-13 19:01:30,874 - MainThread - getImage aquired data lock
+2024-08-13 19:01:30,874 - MainThread - getImage released data lock
+2024-08-13 19:01:31,563 - MainThread - blur attempting to aquire data lock
+2024-08-13 19:01:31,563 - MainThread - blur aquired data lock
+2024-08-13 19:01:31,563 - MainThread - blur released data lock
+2024-08-13 19:01:31,580 - MainThread - rand attempting to aquire data lock
+2024-08-13 19:01:31,580 - MainThread - rand data lock aquired
+2024-08-13 19:01:31,580 - MainThread - rand data lock released
+2024-08-13 19:01:33,064 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:33,064 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:33,064 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:33,092 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:33,092 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:33,092 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:33,363 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:33,566 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:33,566 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:33,566 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:33,595 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:33,595 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:33,595 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:33,834 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:34,070 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:34,070 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:34,070 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:34,096 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:34,096 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:34,096 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:34,306 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:34,573 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:34,573 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:34,573 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:34,597 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:34,597 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:34,597 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:34,778 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:35,076 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:35,076 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:35,076 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:35,098 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:35,098 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:35,098 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:35,580 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:35,580 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:35,580 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:35,599 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:35,599 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:35,599 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:36,082 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:36,082 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:36,082 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:36,100 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:36,100 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:36,100 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:36,564 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:36,564 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:36,564 - MainThread - nextButton released data lock
+2024-08-13 19:01:36,571 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:36,571 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:36,571 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:36,602 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:36,602 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:36,602 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:36,702 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:37,073 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:37,073 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:37,073 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:37,103 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:37,103 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:37,103 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:37,215 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:37,577 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:37,577 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:37,577 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:37,604 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:37,604 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:37,604 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:37,735 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:38,081 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:38,081 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:38,081 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:38,105 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:38,105 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:38,105 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:38,254 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:38,584 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:38,584 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:38,584 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:38,606 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:38,606 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:38,606 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:38,773 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:39,088 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:39,088 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:39,088 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:39,107 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:39,107 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:39,107 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:39,593 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:39,593 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:39,593 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:39,608 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:39,608 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:39,608 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:40,082 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:40,082 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:40,082 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:40,109 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:40,109 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:40,109 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:40,585 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:40,585 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:40,585 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:40,610 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:40,610 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:40,610 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:40,774 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:40,774 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:40,774 - MainThread - nextButton released data lock
+2024-08-13 19:01:41,041 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:41,041 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:41,041 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:41,057 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:41,088 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:41,088 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:41,088 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:41,112 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:41,112 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:41,112 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:41,418 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:41,591 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:41,591 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:41,591 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:41,613 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:41,613 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:41,613 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:41,890 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:42,096 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:42,096 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:42,096 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:42,114 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:42,114 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:42,114 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:42,455 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:42,597 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:42,597 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:42,597 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:42,615 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:42,615 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:42,615 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:42,928 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:43,100 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:43,100 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:43,100 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:43,116 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:43,116 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:43,116 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:43,604 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:43,604 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:43,604 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:43,617 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:43,617 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:43,617 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:44,108 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:44,108 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:44,108 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:44,119 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:44,119 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:44,119 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:44,597 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:44,597 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:44,597 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:44,621 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:44,621 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:44,621 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:45,100 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:45,100 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:45,100 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:45,123 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:45,123 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:45,123 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:45,182 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:45,182 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:45,182 - MainThread - nextButton released data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:45,399 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:45,611 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:45,611 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:45,611 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:45,624 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:45,624 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:45,624 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:45,871 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:46,107 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:46,107 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:46,107 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:46,125 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:46,125 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:46,125 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:46,343 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:46,610 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:46,610 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:46,610 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:46,626 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:46,626 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:46,626 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:46,815 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:47,113 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:47,113 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:47,113 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:47,128 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:47,128 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:47,128 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:47,380 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:47,380 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:47,380 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:47,396 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:47,616 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:47,616 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:47,616 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:47,629 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:47,629 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:47,629 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:48,105 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:48,105 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:48,105 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:48,131 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:48,131 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:48,131 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:48,405 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:48,405 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:48,405 - MainThread - nextButton released data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:48,609 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:48,609 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:48,609 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:48,609 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:48,632 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:48,632 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:48,632 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:48,833 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:49,064 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:49,064 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:49,064 - MainThread - nextButton released data lock
+2024-08-13 19:01:49,112 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:49,112 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:49,112 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:49,133 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:49,133 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:49,133 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:49,394 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:49,614 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:49,614 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:49,614 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:49,634 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:49,634 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:49,634 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:49,762 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:49,762 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:49,762 - MainThread - nextButton released data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:49,960 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:50,117 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:50,117 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:50,117 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:50,136 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:50,136 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:50,136 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:50,338 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:50,374 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:50,374 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:50,374 - MainThread - nextButton released data lock
+2024-08-13 19:01:50,621 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:50,621 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:50,621 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:50,637 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:50,637 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:50,637 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:50,747 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:50,747 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:50,747 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:50,763 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:50,873 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:50,873 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:50,873 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,125 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:51,125 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:51,125 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:51,138 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:51,138 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:51,138 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:51,161 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,161 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,161 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,330 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:51,330 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:51,330 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:51,338 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:51,345 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,345 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,345 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,507 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,507 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,507 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,629 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:51,629 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:51,629 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:51,639 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:51,639 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:51,639 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:51,664 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,664 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,664 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,818 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,818 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,818 - MainThread - nextButton released data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:51,896 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:51,959 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:01:51,959 - MainThread - nextButton aquired data lock
+2024-08-13 19:01:51,959 - MainThread - nextButton released data lock
+2024-08-13 19:01:52,117 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:52,117 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:52,117 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:52,140 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:52,140 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:52,140 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:01:52,463 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:01:52,630 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:52,630 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:52,630 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:52,642 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:52,642 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:52,642 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:01:52,947 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:01:52,947 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:01:52,947 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:01:53,130 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:01:53,130 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:01:53,130 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:01:53,146 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:01:53,146 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:01:53,146 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:10:57,718 - MainThread - getImage attempting to aquire data lock
+2024-08-13 19:10:57,718 - MainThread - getImage aquired data lock
+2024-08-13 19:10:57,718 - MainThread - getImage released data lock
+2024-08-13 19:10:58,632 - MainThread - blur attempting to aquire data lock
+2024-08-13 19:10:58,632 - MainThread - blur aquired data lock
+2024-08-13 19:10:58,632 - MainThread - blur released data lock
+2024-08-13 19:10:58,648 - MainThread - rand attempting to aquire data lock
+2024-08-13 19:10:58,648 - MainThread - rand data lock aquired
+2024-08-13 19:10:58,648 - MainThread - rand data lock released
+2024-08-13 19:11:00,137 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:00,137 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:00,137 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:00,160 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:00,160 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:00,160 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:00,420 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:00,640 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:00,640 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:00,640 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:00,662 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:00,662 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:00,662 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:00,892 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:01,144 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:01,144 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:01,144 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:01,163 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:01,163 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:01,163 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:01,364 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:01,647 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:01,647 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:01,647 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:01,664 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:01,664 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:01,664 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:01,836 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:02,147 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:02,147 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:02,147 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:02,165 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:02,165 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:02,165 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:02,647 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:02,647 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:02,647 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:02,665 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:02,665 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:02,665 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:03,148 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:03,148 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:03,148 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:03,167 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:03,167 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:03,167 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:03,649 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:03,649 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:03,649 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:03,668 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:03,668 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:03,668 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:04,152 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:04,152 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:04,152 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:04,169 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:04,169 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:04,169 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:04,650 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:04,650 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:04,650 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:04,670 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:04,670 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:04,670 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:05,151 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:05,151 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:05,151 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:05,172 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:05,172 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:05,172 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:05,365 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:11:05,365 - MainThread - nextButton aquired data lock
+2024-08-13 19:11:05,365 - MainThread - nextButton released data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:05,553 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:05,648 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:05,648 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:05,648 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:05,673 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:05,673 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:05,673 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:05,883 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:06,150 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:06,150 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:06,150 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:06,174 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:06,174 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:06,174 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:06,292 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:06,654 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:06,654 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:06,654 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:06,676 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:06,676 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:06,676 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:06,811 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:07,157 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:07,157 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:07,157 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:07,177 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:07,177 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:07,177 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:07,331 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:07,661 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:07,661 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:07,661 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:07,678 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:07,678 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:07,678 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:08,150 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:08,150 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:08,150 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:08,178 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:08,178 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:08,178 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:08,654 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:08,654 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:08,654 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:08,680 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:08,680 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:08,680 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:09,158 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:09,158 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:09,158 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:09,181 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:09,181 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:09,181 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:09,662 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:09,662 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:09,662 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:09,682 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:09,682 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:09,682 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:09,950 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:11:09,950 - MainThread - nextButton aquired data lock
+2024-08-13 19:11:09,950 - MainThread - nextButton released data lock
+2024-08-13 19:11:10,166 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:10,166 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:10,166 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:10,184 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:10,184 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:10,184 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:10,293 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:10,293 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:10,293 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:10,308 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:10,670 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:10,670 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:10,670 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:10,685 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:10,685 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:10,685 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:10,969 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:11,173 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:11,173 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:11,173 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:11,186 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:11,186 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:11,186 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:11,535 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:11,676 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:11,676 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:11,676 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:11,687 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:11,687 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:11,687 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:12,006 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:12,164 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:12,164 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:12,164 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:12,188 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:12,188 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:12,188 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:12,462 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:12,478 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:12,478 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:12,478 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:12,678 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:12,678 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:12,678 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:12,689 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:12,689 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:12,689 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:13,179 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:13,179 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:13,179 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:13,191 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:13,191 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:13,191 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:13,680 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:13,680 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:13,680 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:13,692 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:13,692 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:13,692 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:14,181 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:14,181 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:14,181 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:14,194 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:14,194 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:14,194 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:14,681 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:14,681 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:14,681 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:14,695 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:14,695 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:14,695 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:15,183 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:15,183 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:15,183 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:15,196 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:15,196 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:15,196 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:15,686 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:15,686 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:15,686 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:15,697 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:15,697 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:15,697 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:16,183 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:16,183 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:16,183 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:16,198 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:16,198 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:16,198 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:16,683 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:16,683 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:16,683 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:16,699 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:16,699 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:16,699 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:17,184 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:17,184 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:17,184 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:17,200 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:17,200 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:17,200 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:17,686 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:17,686 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:17,686 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:17,701 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:17,701 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:17,701 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:18,189 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:18,189 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:18,189 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:18,202 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:18,202 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:18,202 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:18,693 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:18,693 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:18,693 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:18,704 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:18,704 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:18,704 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:19,198 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:19,198 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:19,198 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:19,205 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:19,205 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:19,205 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:19,702 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:19,702 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:19,702 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:19,706 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:19,706 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:19,706 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:20,190 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:20,190 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:20,190 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:20,207 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:20,207 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:20,207 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:20,694 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:20,694 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:20,694 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:20,708 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:20,708 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:20,708 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:21,198 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:21,198 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:21,198 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:21,210 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:21,210 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:21,210 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:21,702 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:21,702 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:21,702 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:21,711 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:21,711 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:21,711 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:22,206 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:22,206 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:22,206 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:22,212 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:22,212 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:22,212 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:22,694 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:22,694 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:22,694 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:22,714 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:22,714 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:22,714 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:23,199 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:23,199 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:23,199 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:23,215 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:23,215 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:23,215 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:23,703 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:23,703 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:23,703 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:23,716 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:23,716 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:23,716 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:24,207 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:24,207 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:24,207 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:24,217 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:24,217 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:24,217 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:24,711 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:24,711 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:24,711 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:24,718 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:24,718 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:24,718 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:25,200 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:25,215 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:25,215 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:25,219 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:25,219 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:25,219 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:25,704 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:25,719 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:25,719 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:25,721 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:25,721 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:25,721 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:26,208 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:26,208 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:26,208 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:26,222 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:26,222 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:26,222 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:26,722 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:26,722 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:26,722 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:26,823 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:26,823 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:26,823 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:27,216 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:27,216 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:27,216 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:27,224 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:27,224 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:27,224 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:27,725 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:27,725 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:27,725 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:27,825 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:27,825 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:27,825 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:28,224 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:28,224 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:28,224 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:28,226 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:28,226 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:28,226 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:28,713 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:28,713 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:28,713 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:28,728 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:28,728 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:28,728 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:29,217 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:29,217 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:29,217 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:29,230 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:29,230 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:29,230 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:29,721 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:29,721 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:29,721 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:29,733 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:29,733 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:29,733 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:30,225 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:30,225 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:30,225 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:30,234 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:30,234 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:30,234 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:30,729 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:30,729 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:30,729 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:30,735 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:30,735 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:30,735 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:31,233 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:31,233 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:31,233 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:31,237 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:31,237 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:31,237 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:31,721 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:31,721 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:31,721 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:31,739 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:31,739 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:31,739 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:32,225 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:32,225 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:32,225 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:32,241 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:32,241 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:32,241 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:32,728 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:32,728 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:32,728 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:32,743 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:32,743 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:32,743 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:33,232 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:33,232 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:33,232 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:33,246 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:33,246 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:33,246 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:33,657 - MainThread - nextButton attempting to aquire data lock
+2024-08-13 19:11:33,657 - MainThread - nextButton aquired data lock
+2024-08-13 19:11:33,657 - MainThread - nextButton released data lock
+2024-08-13 19:11:33,736 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:33,736 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:33,736 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:33,748 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:33,748 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:33,748 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:33,878 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:34,240 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:34,240 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:34,240 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:34,249 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:34,249 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:34,249 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:34,450 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:34,742 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:34,742 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:34,742 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:34,750 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:34,750 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:34,750 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:34,915 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:35,245 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:35,245 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:35,245 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:35,251 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:35,251 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:35,251 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:35,481 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:35,481 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:35,481 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:35,497 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:35,748 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:35,748 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:35,748 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:35,752 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:35,752 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:35,752 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-13 19:11:35,953 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-13 19:11:35,969 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-13 19:11:35,969 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-13 19:11:35,969 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-13 19:11:36,236 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:36,236 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:36,236 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:36,254 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:36,254 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:36,254 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:36,740 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:36,740 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:36,740 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:36,754 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:36,754 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:36,754 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:37,244 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:37,244 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:37,244 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:37,255 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:37,255 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:37,255 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:37,740 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:37,740 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:37,740 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:37,757 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:37,757 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:37,757 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-13 19:11:38,250 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-13 19:11:38,250 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-13 19:11:38,250 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-13 19:11:38,259 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-13 19:11:38,259 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-13 19:11:38,259 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:11,421 - MainThread - blur attempting to aquire data lock
+2024-08-27 12:38:11,421 - MainThread - blur aquired data lock
+2024-08-27 12:38:11,421 - MainThread - blur released data lock
+2024-08-27 12:38:11,437 - MainThread - rand attempting to aquire data lock
+2024-08-27 12:38:11,437 - MainThread - rand data lock aquired
+2024-08-27 12:38:11,437 - MainThread - rand data lock released
+2024-08-27 12:38:12,926 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:12,926 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:12,926 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:12,953 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:12,953 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:12,953 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:13,429 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:13,429 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:13,429 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:13,455 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:13,455 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:13,455 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:13,931 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:13,931 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:13,931 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:13,956 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:13,956 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:13,956 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:14,434 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:14,434 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:14,434 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:14,457 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:14,457 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:14,457 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:14,937 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:14,937 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:14,937 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:14,959 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:14,959 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:14,959 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:15,425 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:15,425 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:15,425 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:15,460 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:15,460 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:15,460 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:15,928 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:15,928 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:15,928 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:15,962 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:15,962 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:15,962 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:16,432 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:16,432 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:16,432 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:16,463 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:16,463 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:16,463 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:16,936 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:16,936 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:16,936 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:16,964 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:16,964 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:16,964 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:17,441 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:17,441 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:17,441 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:17,465 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:17,465 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:17,465 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:17,945 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:17,945 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:17,945 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:17,966 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:17,966 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:17,966 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:18,449 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:18,449 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:18,449 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:18,467 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:18,467 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:18,467 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:18,938 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:18,938 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:18,938 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:18,968 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:18,968 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:18,968 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:19,442 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:19,442 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:19,442 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:19,469 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:19,469 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:19,469 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:19,947 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:19,947 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:19,947 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:19,971 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:19,971 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:19,971 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:20,451 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:20,451 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:20,451 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:20,472 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:20,472 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:20,472 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:20,948 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:20,948 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:20,948 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:20,973 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:20,973 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:20,973 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:21,447 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:21,447 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:21,447 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:21,474 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:21,474 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:21,474 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:38:21,946 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:38:21,946 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:38:21,946 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:38:21,976 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:38:21,976 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:38:21,976 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:36,814 - MainThread - blur attempting to aquire data lock
+2024-08-27 12:44:36,814 - MainThread - blur aquired data lock
+2024-08-27 12:44:36,814 - MainThread - blur released data lock
+2024-08-27 12:44:36,831 - MainThread - rand attempting to aquire data lock
+2024-08-27 12:44:36,831 - MainThread - rand data lock aquired
+2024-08-27 12:44:36,831 - MainThread - rand data lock released
+2024-08-27 12:44:38,312 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:38,312 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:38,312 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:38,341 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:38,341 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:38,341 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:38,441 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:38,441 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:38,441 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:38,814 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:38,814 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:38,814 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:38,842 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:38,842 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:38,842 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:38,943 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:38,943 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:38,943 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:39,317 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:39,317 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:39,317 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:39,344 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:39,344 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:39,344 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:39,444 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:39,444 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:39,444 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:39,819 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:39,819 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:39,819 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:39,845 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:39,845 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:39,845 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:39,946 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:39,946 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:39,946 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:40,322 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:40,322 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:40,322 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:40,347 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:40,347 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:40,347 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:40,447 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:40,447 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:40,447 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:40,824 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:40,824 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:40,824 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:40,848 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:40,848 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:40,848 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:40,849 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:40,849 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:40,849 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:41,326 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:41,326 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:41,326 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:41,350 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:41,350 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:41,350 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:41,351 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2024-08-27 12:44:41,351 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2024-08-27 12:44:41,351 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2024-08-27 12:44:41,824 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:41,824 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:41,824 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:41,851 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:41,851 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:41,851 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:42,331 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:42,331 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:42,331 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:42,353 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:42,353 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:42,353 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:42,831 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:42,831 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:42,831 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:42,856 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:42,856 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:42,856 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:53,750 - MainThread - blur attempting to aquire data lock
+2024-08-27 12:44:53,750 - MainThread - blur aquired data lock
+2024-08-27 12:44:53,750 - MainThread - blur released data lock
+2024-08-27 12:44:53,767 - MainThread - rand attempting to aquire data lock
+2024-08-27 12:44:53,767 - MainThread - rand data lock aquired
+2024-08-27 12:44:53,767 - MainThread - rand data lock released
+2024-08-27 12:44:55,246 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:55,246 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:55,246 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:55,273 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:55,273 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:55,273 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-27 12:44:55,544 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-27 12:44:55,749 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:55,749 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:55,749 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:55,773 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:55,773 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:55,773 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:56,016 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-27 12:44:56,016 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-27 12:44:56,016 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-27 12:44:56,032 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-27 12:44:56,252 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:56,252 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:56,252 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:56,275 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:56,275 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:56,275 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-27 12:44:56,504 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-27 12:44:56,755 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:56,755 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:56,755 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:56,776 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:56,776 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:56,776 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - blur aquired data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - blur released data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - rand attempting to aquire data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - rand data lock aquired
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - rand data lock released
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2024-08-27 12:44:56,976 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2024-08-27 12:44:57,258 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:57,258 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:57,258 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:57,277 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:57,277 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:57,277 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:57,746 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:57,746 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:57,746 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:57,778 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:57,778 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:57,778 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:58,249 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:58,249 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:58,249 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:58,279 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:58,279 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:58,279 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:58,752 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:58,752 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:58,752 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:58,780 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:58,780 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:58,780 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:59,263 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:59,263 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:59,263 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:59,281 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:59,281 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:59,281 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-27 12:44:59,764 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-08-27 12:44:59,764 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2024-08-27 12:44:59,764 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data released data lock

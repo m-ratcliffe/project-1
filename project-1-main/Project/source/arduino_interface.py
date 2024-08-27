@@ -2,23 +2,6 @@ import serial.tools.list_ports
 import data, config, time
 from config import logger
 
-
-def portConfig():
-    ports = serial.tools.list_ports.comports() #https://youtu.be/AHr94RtMj1A?si=uIVSIY6_S2sPDFUR
-
-    portList = []
-
-    for onePort in ports:
-        portList.append(str(onePort))
-        print(str(onePort))
-
-    comPort = input("select com port: ")
-
-    for x in range(0, len(portList)):
-        if portList[x].startswith("COM" + str(comPort)):
-            portVar = "COM" + str(comPort)
-            config.write_config("portVar", portVar)
-
 def arduino_connect():
     serialInst = serial.Serial()  
     serialInst.baudrate = 9600

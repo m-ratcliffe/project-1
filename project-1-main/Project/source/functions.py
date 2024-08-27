@@ -34,6 +34,7 @@ def getImage():
         data.write_data("currentImage", data.get_data("imageList")[0])
     logger.debug("getImage released data lock")
 
+
 def process_arduino_data():
     while True:
         if data.get_data("sensorData") != 0:
@@ -48,6 +49,16 @@ def process_arduino_data():
                 logger.debug("process_arduino_data aquired data lock")
                 if stick == data.get_data("stick") and hole == data.get_data("hole"):
                     data.write_data("correctUserAction", True)
+                else:
+                    data.write_data("correctUserAction", False)
                 data.write_data("sensorData", 0)
             logger.debug("process_arduino_data released data lock")
         time.sleep(0.1)
+
+
+def reset():
+    with open("defaultConfig.py", "r") as source_file:
+        content = source_file.read()
+    
+    with open("config.py", "w") as destination_file:
+        destination_file.write(content)

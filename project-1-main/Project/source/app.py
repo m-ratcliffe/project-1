@@ -4,6 +4,7 @@ from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
 import functions, data, time, threading
 import arduino_interface, config
+import serial.tools.list_ports
 from config import logger
 ########################CREATE COMMENTS FOR CLARITY################################################
 
@@ -43,12 +44,20 @@ class myGUI:
                 result = data.get_data("correctUserAction")
                 next = data.get_data("userCheck")
                 if result == True and next == False:
+                    self.userAction("green")
                     update_image(data.get_data("blurFactor"))
                     logger.debug("update_image_threading attempting to aquire data lock")
                     with config.data_lock:
                         logger.debug("update_image_threading aquired data lock")
                         data.write_data("correctUserAction", None)
                     logger.debug("update_image_threading released data lock")
+                elif result == False:
+                    self.userAction("red")
+                    logger.debug("update_image_threading(incorrect user action) attempting to aquire data lock")
+                    with config.data_lock:
+                        logger.debug("update_image_threading(incorrect user action) aquired data lock")
+                        data.write_data("correctUserAction", None)
+                    logger.debug("update_image_threading(incorrect user action) released data lock")
                 time.sleep(0.1)
                 #######################ADD ELSE TO FUNCTION IF USER PICKS WRONG HOLE OR STICK###############################################
 
@@ -132,6 +141,17 @@ class myGUI:
         arduino_data.daemon = True
         arduino_data.start()
 
+    def userAction(self, color):
+        if color == "red":
+            colors = ['red', 'white']
+        elif color == "green":
+            colors = ['green', 'white']
+        def update_color(index):
+            self.runWindow.config(bg=colors[index])
+            next_index = (index + 1) % len(colors)
+            self.runWindow.after(500, update_color, next_index)
+        update_color(0)
+
                 
 
     def closeRun(self):
@@ -141,7 +161,7 @@ class myGUI:
     def settingButtons(self):
         self.stwindow = tk.Toplevel()
 
-        self.stwindow.geometry("300x500")
+        self.stwindow.geometry("300x430")
         self.stwindow.title("Settings")
 
         self.image = tk.Button(self.stwindow, text="Choose Images", font=("Arial", 18), width=15, command=functions.getImage)
@@ -153,20 +173,52 @@ class myGUI:
         self.stickSettings = tk.Button(self.stwindow, text="Stick Settings", font=("Arial", 18), width=15)
         self.stickSettings.pack(pady=5)
 
-        self.timer = tk.Button(self.stwindow, text="Timer", font=("Arial", 18), width=15)
-        self.timer.pack(pady=5)
-
-        self.arduinoSettings = tk.Button(self.stwindow, text="Arduino Settings", font=("Arial", 18), width=15)
+        self.arduinoSettings = tk.Button(self.stwindow, text="Arduino Settings", font=("Arial", 18), width=15, command=self.portWindow)
         self.arduinoSettings.pack(pady=5)
 
         self.advanced = tk.Button(self.stwindow, text="Advanced", font=("Arial", 18), width=15)
         self.advanced.pack(pady=5)
 
-        self.reset = tk.Button(self.stwindow, text="Reset", font=("Arial", 18), width=15)
-        self.reset.pack(pady=5)
+        self.reset = tk.Button(self.stwindow, text="Reset", font=("Arial", 18), width=15, command=functions.reset)
+        self.reset.pack(pady=5)#Add a gui that asks if user is sure
 
         self.exit = tk.Button(self.stwindow, text="Close", font=("Arial", 18), width=15, command=self.closeSettings)
         self.exit.pack(pady=5)
+
+    def portWindow(self):
+        self.portWndw = tk.Toplevel()
+
+        self.portWndw.geometry("500x200")
+        self.portWndw.title("Arduino Settings")
+
+        self.availablePorts = tk.Label(self.portWndw, text=self.portConfig)
+        self.availablePorts.pack()
+
+        self.instrct = tk.Label(self.portWndw, text="Please insert only the number of your chosen Port.", font=("Arial", 15))
+        self.instrct.pack()
+
+        self.input = tk.Entry(self.portWndw)
+        self.input.pack()
+
+        self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 17))
+        self.save.pack()
+
+
+    def portConfig(self):
+        ports = serial.tools.list_ports.comports() #https://youtu.be/AHr94RtMj1A?si=uIVSIY6_S2sPDFUR
+
+        portList = []
+
+        port_list = [str(one_port) for one_port in ports]
+        ports_text = "\n".join(port_list)
+        return ports_text
+        comPort = 0
+
+        for x in range(0, len(portList)):
+            if portList[x].startswith("COM" + str(comPort)):
+                portVar = "COM" + str(comPort)
+                with config.data_lock:
+                    config.write_config("portVar", portVar)
 
     def closeSettings(self):
         self.stwindow.destroy()
