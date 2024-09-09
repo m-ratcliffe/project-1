@@ -10,9 +10,11 @@ configuration = {
     "stick" : ["Red"]#, "Green", "Blue", "Yellow"]
 }
 
+#Basic logging for debug
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(threadName)s - %(message)s', filename="basic.log")
 logger = logging.getLogger("app_logger")
 
+#Threading locks so data isn't corrupted or overwritten
 data_lock = threading.Lock()
 
 def get_config(key):

@@ -2100,3 +2100,18 @@
 2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
 2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
 2024-08-27 12:44:59,783 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2024-08-28 13:21:34,114 - MainThread - blur attempting to aquire data lock
+2024-08-28 13:21:34,114 - MainThread - blur aquired data lock
+2024-08-28 13:21:34,114 - MainThread - blur released data lock
+2024-08-28 13:21:34,129 - MainThread - rand attempting to aquire data lock
+2024-08-28 13:21:34,129 - MainThread - rand data lock aquired
+2024-08-28 13:21:34,129 - MainThread - rand data lock released
+2024-08-28 13:21:38,871 - MainThread - nextButton attempting to aquire data lock
+2024-08-28 13:21:38,871 - MainThread - nextButton aquired data lock
+2024-08-28 13:21:38,871 - MainThread - nextButton released data lock
+2024-09-04 10:22:18,930 - MainThread - blur attempting to aquire data lock
+2024-09-04 10:22:18,930 - MainThread - blur aquired data lock
+2024-09-04 10:22:18,930 - MainThread - blur released data lock
+2024-09-04 10:22:18,963 - MainThread - rand attempting to aquire data lock
+2024-09-04 10:22:18,963 - MainThread - rand data lock aquired
+2024-09-04 10:22:18,963 - MainThread - rand data lock released

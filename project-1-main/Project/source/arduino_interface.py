@@ -2,6 +2,7 @@ import serial.tools.list_ports
 import data, config, time
 from config import logger
 
+#Pulls data from the arduino
 def arduino_connect():
     serialInst = serial.Serial()  
     serialInst.baudrate = 9600
