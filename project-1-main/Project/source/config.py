@@ -1,5 +1,7 @@
 import threading
 import logging
+import pickle
+import os
 
 configuration = {
     "portVar" : "COM4",
@@ -17,8 +19,23 @@ logger = logging.getLogger("app_logger")
 #Threading locks so data isn't corrupted or overwritten
 data_lock = threading.Lock()
 
+config_file_path = "config.pkl"
+
+def load_config():
+    global configuration
+    if os.path.exists(config_file_path):
+        with open(config_file_path, "rb") as file:
+            configuration = pickle.load(file)
+    else:
+        logger.warning("Configuration file not found, using default settings.")
+
+def save_config():
+    with open(config_file_path, "wb") as file:
+        pickle.dump(configuration, file)
+        
 def get_config(key):
     return configuration.get(key)
 
 def write_config(key, value):
     configuration[key] = value
+    save_config()

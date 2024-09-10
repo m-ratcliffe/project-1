@@ -6,7 +6,6 @@ import functions, data, time, threading
 import arduino_interface, config
 import serial.tools.list_ports
 from config import logger
-########################CREATE COMMENTS FOR CLARITY################################################
 
 
 class myGUI:
@@ -196,16 +195,13 @@ class myGUI:
 
         tempStr=self.portConfig()
 
-        self.availablePorts = tk.Label(self.portWndw, text=tempStr)
+        selected_option = tk.StringVar()
+        selected_option.set(tempStr[0])
+
+        self.availablePorts = tk.OptionMenu(self.portWndw, selected_option, *tempStr)
         self.availablePorts.pack()
 
-        self.instrct = tk.Label(self.portWndw, text="Please insert only the number of your chosen Port.", font=("Arial", 15))
-        self.instrct.pack()
-
-        self.input = tk.Entry(self.portWndw)
-        self.input.pack()
-
-        self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 17))
+        self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 17), command=lambda: self.saveArduinoSettings(selected_option.get()))
         self.save.pack()
 
     #Advanced settings window
@@ -231,19 +227,13 @@ class myGUI:
     #Identifies ports in use
     def portConfig(self):
         ports = serial.tools.list_ports.comports() #https://youtu.be/AHr94RtMj1A?si=uIVSIY6_S2sPDFUR
-
-        #portList = []
-
-        port_list = [str(one_port) for one_port in ports]
-        ports_text = "\n".join(port_list)
-        return ports_text
-        #comPort = 0
-
-        #for x in range(0, len(portList)):
-            #if portList[x].startswith("COM" + str(comPort)):
-               #portVar = "COM" + str(comPort)
-                #with config.data_lock:
-                    #config.write_config("portVar", portVar)
+        port_info = [f"{port.device} - {port.description}" for port in ports]
+        return port_info
+    
+    def saveArduinoSettings(self, portVar):
+        newPort = str(portVar)[:4]
+        with config.data_lock:
+            config.write_config("portVar", newPort)
 
     def closeSettings(self):
         self.stwindow.destroy()

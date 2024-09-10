@@ -48,11 +48,11 @@ def process_arduino_data():
             stick = None
             if stickVal >= 505 and stickVal <= 515:
                 stick = "Red"
-            if stickVal >= 600 and stickVal <= 700:
+            if stickVal >= 320 and stickVal <= 335:
                 stick = "Green"
-            if stickVal >= 705 and stickVal <= 800:
+            if stickVal >= 700 and stickVal <= 715:
                 stick = "Blue"
-            if stickVal >= 805 and stickVal <= 900:
+            if stickVal >= 405 and stickVal <= 415:
                 stick = "Yellow"
             logger.debug("process_arduino_data attempting to aquire data lock")
             with config.data_lock:
