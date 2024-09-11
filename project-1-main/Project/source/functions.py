@@ -37,6 +37,13 @@ def getImage():
 #Set the initial file directory of pictures
 def getInitialDir():
     folderName = filedialog.askdirectory(title= "Select an initial Image Directory")
+    with config.data_lock:
+        config.write_config("initialDir", folderName)
+
+def getDefaultImg():
+    imgName = filedialog.askopenfilename(title= "Select a default image")
+    with config.data_lock:
+        config.write_config("defaultImg", imgName)
 
 #Reading data sent by the arduino and then processing the data
 def process_arduino_data():

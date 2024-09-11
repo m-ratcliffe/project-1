@@ -2115,3 +2115,4 @@
 2024-09-04 10:22:18,963 - MainThread - rand attempting to aquire data lock
 2024-09-04 10:22:18,963 - MainThread - rand data lock aquired
 2024-09-04 10:22:18,963 - MainThread - rand data lock released
+2024-09-11 17:38:38,102 - MainThread - Configuration file not found, using default settings.

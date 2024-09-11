@@ -7,6 +7,7 @@ import arduino_interface, config
 import serial.tools.list_ports
 from config import logger
 
+config.load_config()
 
 class myGUI:
     #Main menu window
@@ -223,6 +224,12 @@ class myGUI:
 
         self.blurInc = tk.Label(self.advWnd, text=f"Current Blur Increment: {currentValue}")
         self.blurInc.pack()
+
+        self.initalDir = tk.Button(self.advWnd, text="Set initial Image Directory", command=functions.getInitialDir)
+        self.initalDir.pack()
+
+        self.defaultImg = tk.Button(self.advWnd, text="Set default image", command=functions.getDefaultImg)
+        self.defaultImg.pack()
 
     #Identifies ports in use
     def portConfig(self):
