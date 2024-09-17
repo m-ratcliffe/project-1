@@ -2116,3 +2116,84 @@
 2024-09-04 10:22:18,963 - MainThread - rand data lock aquired
 2024-09-04 10:22:18,963 - MainThread - rand data lock released
 2024-09-11 17:38:38,102 - MainThread - Configuration file not found, using default settings.
+2024-09-13 15:41:11,343 - MainThread - Configuration file not found, using default settings.
+2024-09-13 15:45:09,028 - MainThread - Configuration file not found, using default settings.
+2024-09-13 15:45:22,187 - MainThread - getImage attempting to aquire data lock
+2024-09-13 15:45:22,187 - MainThread - getImage aquired data lock
+2024-09-13 15:45:22,187 - MainThread - getImage released data lock
+2024-09-13 15:45:23,741 - MainThread - blur attempting to aquire data lock
+2024-09-13 15:45:23,741 - MainThread - blur aquired data lock
+2024-09-13 15:45:23,741 - MainThread - blur released data lock
+2024-09-13 15:45:23,756 - MainThread - rand attempting to aquire data lock
+2024-09-13 15:45:23,756 - MainThread - rand data lock aquired
+2024-09-13 15:45:23,756 - MainThread - rand data lock released
+2024-09-13 15:46:48,797 - MainThread - Configuration file not found, using default settings.
+2024-09-13 15:46:50,160 - MainThread - blur attempting to aquire data lock
+2024-09-13 15:46:50,160 - MainThread - blur aquired data lock
+2024-09-13 15:46:50,160 - MainThread - blur released data lock
+2024-09-13 15:46:50,181 - MainThread - rand attempting to aquire data lock
+2024-09-13 15:46:50,181 - MainThread - rand data lock aquired
+2024-09-13 15:46:50,181 - MainThread - rand data lock released
+2024-09-17 16:07:48,090 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:08:28,524 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:08:30,809 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:08:30,809 - MainThread - blur aquired data lock
+2024-09-17 16:08:30,809 - MainThread - blur released data lock
+2024-09-17 16:08:30,845 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:08:30,845 - MainThread - rand data lock aquired
+2024-09-17 16:08:30,845 - MainThread - rand data lock released
+2024-09-17 16:18:36,162 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:22:52,463 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:25:33,298 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:25:34,749 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:25:34,749 - MainThread - blur aquired data lock
+2024-09-17 16:25:34,749 - MainThread - blur released data lock
+2024-09-17 16:25:34,766 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:25:34,766 - MainThread - rand data lock aquired
+2024-09-17 16:25:34,766 - MainThread - rand data lock released
+2024-09-17 16:26:33,731 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:26:35,288 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:26:35,288 - MainThread - blur aquired data lock
+2024-09-17 16:26:35,288 - MainThread - blur released data lock
+2024-09-17 16:26:35,303 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:26:35,303 - MainThread - rand data lock aquired
+2024-09-17 16:26:35,303 - MainThread - rand data lock released
+2024-09-17 16:26:55,265 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:26:56,515 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:26:56,515 - MainThread - blur aquired data lock
+2024-09-17 16:26:56,515 - MainThread - blur released data lock
+2024-09-17 16:26:56,536 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:26:56,536 - MainThread - rand data lock aquired
+2024-09-17 16:26:56,536 - MainThread - rand data lock released
+2024-09-17 16:27:28,215 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:27:29,683 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:27:29,683 - MainThread - blur aquired data lock
+2024-09-17 16:27:29,683 - MainThread - blur released data lock
+2024-09-17 16:27:29,684 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:27:29,684 - MainThread - rand data lock aquired
+2024-09-17 16:27:29,684 - MainThread - rand data lock released
+2024-09-17 16:27:39,019 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:27:39,019 - MainThread - blur aquired data lock
+2024-09-17 16:27:39,019 - MainThread - blur released data lock
+2024-09-17 16:27:39,019 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:27:39,019 - MainThread - rand data lock aquired
+2024-09-17 16:27:39,019 - MainThread - rand data lock released
+2024-09-17 16:30:18,767 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:30:19,949 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:30:19,949 - MainThread - blur aquired data lock
+2024-09-17 16:30:19,950 - MainThread - blur released data lock
+2024-09-17 16:30:19,950 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:30:19,950 - MainThread - rand data lock aquired
+2024-09-17 16:30:19,950 - MainThread - rand data lock released
+2024-09-17 16:30:23,250 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:30:23,250 - MainThread - blur aquired data lock
+2024-09-17 16:30:23,250 - MainThread - blur released data lock
+2024-09-17 16:30:23,250 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:30:23,250 - MainThread - rand data lock aquired
+2024-09-17 16:30:23,250 - MainThread - rand data lock released
+2024-09-17 16:30:26,433 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:30:26,433 - MainThread - blur aquired data lock
+2024-09-17 16:30:26,433 - MainThread - blur released data lock
+2024-09-17 16:30:26,433 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:30:26,433 - MainThread - rand data lock aquired
+2024-09-17 16:30:26,433 - MainThread - rand data lock released

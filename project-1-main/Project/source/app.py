@@ -6,6 +6,7 @@ import functions, data, time, threading
 import arduino_interface, config
 import serial.tools.list_ports
 from config import logger
+from tkinter import messagebox
 
 config.load_config()
 
@@ -34,6 +35,15 @@ class myGUI:
 
     #Main runtime window
     def run(self):
+        if data.get_data("windowOpen") == True and data.get_data("arduinoConnect") == True:
+            self.runWindow.deiconify()
+        else:
+            with config.data_lock:
+                data.write_data("windowOpen", True)
+
+        if data.get_data("imageList") == None and config.get_config("defaultImg") == None:
+            messagebox.showerror("Error", "Please select one or more images, or set a default image.")
+            self.runWindow.withdraw()
 
         self.runWindow = tk.Toplevel()
 
@@ -132,18 +142,30 @@ class myGUI:
         self.close = tk.Button(self.runWindow, text="Close", font=("Arial", 18), width=15, command=self.closeRun)
         self.close.pack(pady=5)
 
-        #Creates and starts the Threads       
-        arduino_thread = threading.Thread(target=arduino_interface.arduino_connect)
-        arduino_thread.daemon = True
-        arduino_thread.start()
+        #Creates and starts the Threads
+        try:
+        # Attempt to open the serial port
+            port_name = config.get_config("portVar")
+            ser = serial.Serial(port_name, 9600, timeout=1)
+            ser.close()  # Close the port if it's successfully opened
 
-        update_image_thread = threading.Thread(target=update_image_threading)
-        update_image_thread.daemon = True
-        update_image_thread.start()
+            arduino_thread = threading.Thread(target=arduino_interface.arduino_connect)
+            arduino_thread.daemon = True
+            arduino_thread.start()
 
-        arduino_data = threading.Thread(target=functions.process_arduino_data)
-        arduino_data.daemon = True
-        arduino_data.start()
+            update_image_thread = threading.Thread(target=update_image_threading)
+            update_image_thread.daemon = True
+            update_image_thread.start()
+
+            arduino_data = threading.Thread(target=functions.process_arduino_data)
+            arduino_data.daemon = True
+            arduino_data.start()
+            with config.data_lock:
+                data.write_data("arduinoConnect", True)
+        except serial.SerialException:
+            self.runWindow.withdraw()
+            messagebox.showerror("Error", "Could not connect to Arduino. Please make sure it is plugged in and the correct Port is selected.")     
+        
 
     #Indicates to the user if their action was correct
     def userAction(self, color):
@@ -160,7 +182,7 @@ class myGUI:
                 
 
     def closeRun(self):
-        self.runWindow.destroy()
+        self.runWindow.withdraw()
 
     #Settings window
     def settingButtons(self):

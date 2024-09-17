@@ -7,7 +7,9 @@ shared_data = {
     "blurFactor" : 9,
     "imgNum" : 0,
     "correctUserAction": None,
-    "userCheck" : False
+    "userCheck" : False,
+    "windowOpen" : False,
+    "arduinoConnect" : False,
 }
 
 def get_data(key):
