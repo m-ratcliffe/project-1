@@ -148,7 +148,6 @@ class myGUI:
             port_name = config.get_config("portVar")
             ser = serial.Serial(port_name, 9600, timeout=1)
             ser.close()  # Close the port if it's successfully opened
-
             arduino_thread = threading.Thread(target=arduino_interface.arduino_connect)
             arduino_thread.daemon = True
             arduino_thread.start()
@@ -165,7 +164,6 @@ class myGUI:
         except serial.SerialException:
             self.runWindow.withdraw()
             messagebox.showerror("Error", "Could not connect to Arduino. Please make sure it is plugged in and the correct Port is selected.")     
-        
 
     #Indicates to the user if their action was correct
     def userAction(self, color):
@@ -194,9 +192,6 @@ class myGUI:
         self.image = tk.Button(self.stwindow, text="Choose Images", font=("Arial", 18), width=15, command=functions.getImage)
         self.image.pack(pady=5)
 
-        self.stickSettings = tk.Button(self.stwindow, text="Stick Settings", font=("Arial", 18), width=15)
-        self.stickSettings.pack(pady=5)
-
         self.arduinoSettings = tk.Button(self.stwindow, text="Arduino Settings", font=("Arial", 18), width=15, command=self.portWindow)
         self.arduinoSettings.pack(pady=5)
 
@@ -222,10 +217,10 @@ class myGUI:
         selected_option.set(tempStr[0])
 
         self.availablePorts = tk.OptionMenu(self.portWndw, selected_option, *tempStr)
-        self.availablePorts.pack()
+        self.availablePorts.pack(pady=5)
 
         self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 17), command=lambda: self.saveArduinoSettings(selected_option.get()))
-        self.save.pack()
+        self.save.pack(pady=5)
 
     #Advanced settings window
     def advancedSettings(self):
@@ -242,16 +237,22 @@ class myGUI:
             self.blurInc.config(text=f"Blur Increment: {value}")
         
         slider = tk.Scale(self.advWnd, from_= 1, to= 10, orient=tk.HORIZONTAL, variable=blur_increment, command=updateBlurIncrement)
-        slider.pack()
+        slider.pack(pady=5)
 
         self.blurInc = tk.Label(self.advWnd, text=f"Current Blur Increment: {currentValue}")
-        self.blurInc.pack()
+        self.blurInc.pack(pady=5)
 
         self.initalDir = tk.Button(self.advWnd, text="Set initial Image Directory", command=functions.getInitialDir)
-        self.initalDir.pack()
+        self.initalDir.pack(pady=5)
 
         self.defaultImg = tk.Button(self.advWnd, text="Set default image", command=functions.getDefaultImg)
-        self.defaultImg.pack()
+        self.defaultImg.pack(pady=5)
+
+        self.saveBlurIncrement = tk.Button(self.advWnd, text="Save", command=lambda: config.write_config("blurIncrement", blur_increment.get()))
+        self.saveBlurIncrement.pack(pady=5)
+
+        self.closeAdvanced = tk.Button(self.advWnd, text="Close", command=lambda: self.advWnd.destroy())
+        self.closeAdvanced.pack(pady=5)
 
     #Identifies ports in use
     def portConfig(self):

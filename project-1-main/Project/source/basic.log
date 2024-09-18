@@ -2197,3 +2197,501 @@
 2024-09-17 16:30:26,433 - MainThread - rand attempting to aquire data lock
 2024-09-17 16:30:26,433 - MainThread - rand data lock aquired
 2024-09-17 16:30:26,433 - MainThread - rand data lock released
+2024-09-17 16:40:56,187 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:40:57,389 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:40:57,389 - MainThread - blur aquired data lock
+2024-09-17 16:40:57,389 - MainThread - blur released data lock
+2024-09-17 16:40:57,405 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:40:57,405 - MainThread - rand data lock aquired
+2024-09-17 16:40:57,405 - MainThread - rand data lock released
+2024-09-17 16:41:32,938 - MainThread - Configuration file not found, using default settings.
+2024-09-17 16:41:34,457 - MainThread - blur attempting to aquire data lock
+2024-09-17 16:41:34,457 - MainThread - blur aquired data lock
+2024-09-17 16:41:34,457 - MainThread - blur released data lock
+2024-09-17 16:41:34,473 - MainThread - rand attempting to aquire data lock
+2024-09-17 16:41:34,473 - MainThread - rand data lock aquired
+2024-09-17 16:41:34,473 - MainThread - rand data lock released
+2024-09-17 16:41:35,981 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:35,981 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:35,981 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,087 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,087 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,087 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,188 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,188 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,188 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,289 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,289 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,289 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,389 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,389 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,389 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,490 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,490 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,490 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,591 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,591 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,591 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,693 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,693 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,693 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,794 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,794 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,794 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,894 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,894 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,894 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:36,995 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:36,995 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:36,995 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,096 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,096 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,096 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,197 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,197 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,197 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,298 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,298 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,298 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,399 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,399 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,399 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,500 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,500 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,500 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,601 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,601 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,601 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,702 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,702 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,702 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,803 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,803 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,803 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:37,904 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:37,904 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:37,904 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,005 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,005 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,005 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,105 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,105 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,105 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,206 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,207 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,207 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,307 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,307 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,307 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,408 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,408 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,408 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,509 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,509 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,509 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,610 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,610 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,610 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,711 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,711 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,711 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,812 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,812 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,812 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:38,913 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:38,913 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:38,913 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,013 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,013 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,013 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,114 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,114 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,114 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,215 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,215 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,215 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,316 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,316 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,316 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,417 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,417 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,417 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,518 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,518 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,518 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,619 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,619 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,619 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,720 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,720 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,720 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,821 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,821 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,821 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:39,922 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:39,922 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:39,922 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,022 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,022 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,022 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,123 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,123 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,123 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,224 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,224 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,224 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,325 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,325 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,325 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,426 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,426 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,426 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,528 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,528 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,528 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,628 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,628 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,628 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,729 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,729 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,729 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,830 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,830 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,830 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:40,931 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:40,931 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:40,931 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,032 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,032 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,032 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,133 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,133 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,133 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,234 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,234 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,234 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,335 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,335 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,335 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,436 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,436 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,437 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,537 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,537 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,537 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,638 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,638 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,638 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,739 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,739 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,739 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,840 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,840 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,840 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:41,941 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:41,941 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:41,941 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,042 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,042 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,042 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,143 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,143 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,143 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,244 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,244 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,244 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,345 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,345 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,345 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,446 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,446 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,447 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,547 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,547 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,547 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,648 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,648 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,648 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,749 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,749 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,749 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 16:41:42,849 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 16:41:42,849 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 16:41:42,850 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:56:03,116 - MainThread - Configuration file not found, using default settings.
+2024-09-17 17:57:05,223 - MainThread - blur attempting to aquire data lock
+2024-09-17 17:57:05,223 - MainThread - blur aquired data lock
+2024-09-17 17:57:05,223 - MainThread - blur released data lock
+2024-09-17 17:57:05,235 - MainThread - rand attempting to aquire data lock
+2024-09-17 17:57:05,235 - MainThread - rand data lock aquired
+2024-09-17 17:57:05,235 - MainThread - rand data lock released
+2024-09-17 17:57:30,133 - MainThread - blur attempting to aquire data lock
+2024-09-17 17:57:30,133 - MainThread - blur aquired data lock
+2024-09-17 17:57:30,133 - MainThread - blur released data lock
+2024-09-17 17:57:30,135 - MainThread - rand attempting to aquire data lock
+2024-09-17 17:57:30,135 - MainThread - rand data lock aquired
+2024-09-17 17:57:30,135 - MainThread - rand data lock released
+2024-09-17 17:57:31,641 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:31,642 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:31,642 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:31,742 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:31,742 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:31,742 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:31,843 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:31,843 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:31,843 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:31,943 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:31,943 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:31,943 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,044 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,044 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,044 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,145 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,145 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,145 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,246 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,246 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,246 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,346 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,346 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,346 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,447 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,447 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,447 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,548 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,548 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,548 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,649 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,649 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,649 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,749 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,749 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,749 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,850 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,850 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,850 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:32,950 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:32,950 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:32,950 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,051 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,051 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,051 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,152 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,152 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,152 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,253 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,253 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,253 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,354 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,354 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,354 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,454 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,454 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,454 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,555 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,555 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,555 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,656 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,656 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,656 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,757 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,757 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,757 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,857 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,857 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,857 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:33,958 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:33,958 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:33,958 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,059 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,059 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,059 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,159 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,159 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,159 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,260 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,260 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,260 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,361 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,361 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,361 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,461 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,461 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,461 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,562 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,562 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,562 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,663 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,663 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,663 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,763 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,763 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,763 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,864 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,864 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,864 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:34,965 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:34,965 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:34,965 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,066 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,066 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,066 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,167 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,167 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,167 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,268 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,268 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,268 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,368 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,368 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,368 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,469 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,469 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,469 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,570 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,570 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,571 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,671 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,671 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,671 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,772 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,772 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,772 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,872 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,872 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,872 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:35,973 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:35,973 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:35,973 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,074 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,074 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,074 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,175 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,175 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,175 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,276 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,276 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,276 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,376 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,376 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,376 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,477 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,477 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,477 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,578 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,578 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,578 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,679 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,679 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,679 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,780 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,780 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,780 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,881 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,881 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,881 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:36,981 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:36,981 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:36,981 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,082 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,082 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,082 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,183 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,183 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,183 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,283 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,283 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,283 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,384 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,384 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,385 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,485 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,485 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,485 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,585 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,585 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,585 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,686 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,686 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,686 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,786 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,786 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,786 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,887 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,887 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,887 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:37,988 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:37,988 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:37,988 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,088 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,089 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,089 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,189 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,189 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,189 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,290 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,290 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,290 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,391 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,391 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,391 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,491 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,491 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,491 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,592 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,592 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,592 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,693 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,693 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,693 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,793 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,793 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,793 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,895 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,895 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,895 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:38,996 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:38,996 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:38,996 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:39,097 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:39,097 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:39,097 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:39,198 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:39,198 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:39,198 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:39,299 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:39,299 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:39,299 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:39,400 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:39,400 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:39,400 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:39,500 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:39,500 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:39,500 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:57:42,197 - MainThread - Configuration file not found, using default settings.
+2024-09-17 17:57:43,448 - MainThread - blur attempting to aquire data lock
+2024-09-17 17:57:43,449 - MainThread - blur aquired data lock
+2024-09-17 17:57:43,449 - MainThread - blur released data lock
+2024-09-17 17:57:43,462 - MainThread - rand attempting to aquire data lock
+2024-09-17 17:57:43,462 - MainThread - rand data lock aquired
+2024-09-17 17:57:43,462 - MainThread - rand data lock released
+2024-09-17 17:57:44,969 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:57:44,969 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:57:44,969 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-17 17:58:18,423 - MainThread - Configuration file not found, using default settings.
+2024-09-17 17:58:19,664 - MainThread - blur attempting to aquire data lock
+2024-09-17 17:58:19,664 - MainThread - blur aquired data lock
+2024-09-17 17:58:19,664 - MainThread - blur released data lock
+2024-09-17 17:58:19,676 - MainThread - rand attempting to aquire data lock
+2024-09-17 17:58:19,677 - MainThread - rand data lock aquired
+2024-09-17 17:58:19,677 - MainThread - rand data lock released
+2024-09-17 17:58:21,184 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-17 17:58:21,184 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-17 17:58:21,184 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-18 15:31:59,288 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:40:34,625 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:40:57,394 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:43:16,776 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:43:38,694 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:44:01,511 - MainThread - Configuration file not found, using default settings.
+2024-09-18 15:44:32,293 - MainThread - Configuration file not found, using default settings.
