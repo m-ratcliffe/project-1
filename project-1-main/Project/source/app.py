@@ -2,7 +2,7 @@ import tkinter as tk
 from random import Random
 from tkinter import filedialog
 from PIL import Image, ImageTk #https://youtu.be/VnwDPa9biwc?si=TVNhnOiVH9hD5OvG
-import functions, data, time, threading
+import functions, data, time, threading, os
 import arduino_interface, config
 import serial.tools.list_ports
 from config import logger
@@ -198,8 +198,8 @@ class myGUI:
         self.advanced = tk.Button(self.stwindow, text="Advanced", font=("Arial", 18), width=15, command=self.advancedSettings)
         self.advanced.pack(pady=5)
 
-        self.reset = tk.Button(self.stwindow, text="Reset", font=("Arial", 18), width=15, command=functions.reset)
-        self.reset.pack(pady=5)#Add a gui that asks if user is sure
+        self.reset_button = tk.Button(self.stwindow, text="Reset", font=("Arial", 18), width=15, command=self.reset)
+        self.reset_button.pack(pady=5)
 
         self.exit = tk.Button(self.stwindow, text="Close", font=("Arial", 18), width=15, command=self.closeSettings)
         self.exit.pack(pady=5)
@@ -208,7 +208,7 @@ class myGUI:
     def portWindow(self):
         self.portWndw = tk.Toplevel()
 
-        self.portWndw.geometry("500x200")
+        self.portWndw.geometry("500x100")
         self.portWndw.title("Arduino Settings")
 
         tempStr=self.portConfig()
@@ -219,7 +219,7 @@ class myGUI:
         self.availablePorts = tk.OptionMenu(self.portWndw, selected_option, *tempStr)
         self.availablePorts.pack(pady=5)
 
-        self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 17), command=lambda: self.saveArduinoSettings(selected_option.get()))
+        self.save = tk.Button(self.portWndw, text="Save", font=("Arial", 13), command=lambda: self.saveArduinoSettings(selected_option.get()))
         self.save.pack(pady=5)
 
     #Advanced settings window
@@ -236,22 +236,22 @@ class myGUI:
         def updateBlurIncrement(value):
             self.blurInc.config(text=f"Blur Increment: {value}")
         
-        slider = tk.Scale(self.advWnd, from_= 1, to= 10, orient=tk.HORIZONTAL, variable=blur_increment, command=updateBlurIncrement)
+        slider = tk.Scale(self.advWnd, from_= 1, to= 10, orient=tk.HORIZONTAL, variable=blur_increment, length=170, command=updateBlurIncrement)
         slider.pack(pady=5)
 
-        self.blurInc = tk.Label(self.advWnd, text=f"Current Blur Increment: {currentValue}")
+        self.blurInc = tk.Label(self.advWnd, text=f"Current Blur Increment: {currentValue}", font=("Arial", 13))
         self.blurInc.pack(pady=5)
 
-        self.initalDir = tk.Button(self.advWnd, text="Set initial Image Directory", command=functions.getInitialDir)
+        self.initalDir = tk.Button(self.advWnd, text="Set initial Image Directory", font=("Arial", 13), width=23, command=functions.getInitialDir)
         self.initalDir.pack(pady=5)
 
-        self.defaultImg = tk.Button(self.advWnd, text="Set default image", command=functions.getDefaultImg)
+        self.defaultImg = tk.Button(self.advWnd, text="Set default image", font=("Arial", 13), width=23, command=functions.getDefaultImg)
         self.defaultImg.pack(pady=5)
 
-        self.saveBlurIncrement = tk.Button(self.advWnd, text="Save", command=lambda: config.write_config("blurIncrement", blur_increment.get()))
+        self.saveBlurIncrement = tk.Button(self.advWnd, text="Save", font=("Arial", 13), width=23, command=lambda: config.write_config("blurIncrement", blur_increment.get()))
         self.saveBlurIncrement.pack(pady=5)
 
-        self.closeAdvanced = tk.Button(self.advWnd, text="Close", command=lambda: self.advWnd.destroy())
+        self.closeAdvanced = tk.Button(self.advWnd, text="Close", font=("Arial", 13), width=23, command=lambda: self.advWnd.destroy())
         self.closeAdvanced.pack(pady=5)
 
     #Identifies ports in use
@@ -267,5 +267,10 @@ class myGUI:
 
     def closeSettings(self):
         self.stwindow.destroy()
+
+    def reset(self):
+            confirmation = messagebox.askyesno("Reset Settings", "Are you sure you want to reset the settings?", parent=self.stwindow)
+            if confirmation == True:
+                os.remove("config.pkl")
 
 myGUI()

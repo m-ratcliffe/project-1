@@ -73,7 +73,3 @@ def process_arduino_data():
                 data.write_data("sensorData", 0)
             logger.debug("process_arduino_data released data lock")
         time.sleep(0.1)
-
-#Remove the modified config file
-def reset():
-    os.remove("config.pkl")
