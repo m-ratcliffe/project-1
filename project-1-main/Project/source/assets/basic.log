@@ -27,3 +27,6 @@
 2024-09-26 11:59:40,553 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
 2024-09-26 11:59:40,553 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
 2024-09-26 11:59:40,553 - Thread-6 (arduino_connect) - arduino_connect released data lock
+2024-09-26 12:04:57,471 - MainThread - Configuration file not found, using default settings.
+2024-09-26 12:05:01,260 - MainThread - getImage attempting to aquire data lock
+2024-09-26 12:05:01,260 - MainThread - getImage aquired data lock
