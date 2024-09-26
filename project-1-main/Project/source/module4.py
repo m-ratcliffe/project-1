@@ -1,6 +1,6 @@
 from PIL import ImageFilter
 from tkinter import filedialog
-import module3, module2, time, os
+import module3, module2, time
 from module2 import logger
 
 #Blurs the image
@@ -31,7 +31,7 @@ def getImage():
     with module2.data_lock:
         logger.debug("getImage aquired data lock")
         module3.write_data("imageList", list(filenames))
-        module3.write_data("currentImage", module3.get_data("imageList")[0])
+        module3.write_data("currentImage", module2.resource_path(module3.get_data("imageList")[0]))
     logger.debug("getImage released data lock")
 
 #Set the initial file directory of pictures
@@ -39,13 +39,13 @@ def getInitialDir():
     folderName = filedialog.askdirectory(title= "Select an initial Image Directory")
     if folderName != None:
         with module2.data_lock:
-            module2.write_config("initialDir", folderName)
+            module2.write_config("initialDir", module2.resource_path(folderName))
 
 def getDefaultImg():
     imgName = filedialog.askopenfilename(title= "Select a default image")
     if imgName != None:
         with module2.data_lock:
-            module2.write_config("defaultImg", imgName)
+            module2.write_config("defaultImg", module2.resource_path(imgName))
 
 #Reading data sent by the arduino and then processing the data
 def process_arduino_data():

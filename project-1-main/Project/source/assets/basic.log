@@ -1,0 +1,19 @@
+2024-09-26 10:34:22,636 - MainThread - Configuration file not found, using default settings.
+2024-09-26 11:53:10,213 - MainThread - Configuration file not found, using default settings.
+2024-09-26 11:53:32,447 - MainThread - getImage attempting to aquire data lock
+2024-09-26 11:53:32,447 - MainThread - getImage aquired data lock
+2024-09-26 11:53:44,290 - MainThread - getImage attempting to aquire data lock
+2024-09-26 11:53:44,290 - MainThread - getImage aquired data lock
+2024-09-26 11:54:48,053 - MainThread - Configuration file not found, using default settings.
+2024-09-26 11:54:52,775 - MainThread - getImage attempting to aquire data lock
+2024-09-26 11:54:52,775 - MainThread - getImage aquired data lock
+2024-09-26 11:54:52,775 - MainThread - getImage released data lock
+2024-09-26 11:54:53,882 - MainThread - blur attempting to aquire data lock
+2024-09-26 11:54:53,882 - MainThread - blur aquired data lock
+2024-09-26 11:54:53,882 - MainThread - blur released data lock
+2024-09-26 11:54:53,895 - MainThread - rand attempting to aquire data lock
+2024-09-26 11:54:53,896 - MainThread - rand data lock aquired
+2024-09-26 11:54:53,896 - MainThread - rand data lock released
+2024-09-26 11:54:55,403 - Thread-6 (arduino_connect) - arduino_connect attempting to aquire data lock
+2024-09-26 11:54:55,404 - Thread-6 (arduino_connect) - arduino_connect aquired data lock
+2024-09-26 11:54:55,404 - Thread-6 (arduino_connect) - arduino_connect released data lock

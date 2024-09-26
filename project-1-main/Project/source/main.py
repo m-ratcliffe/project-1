@@ -97,9 +97,9 @@ class myGUI:
         #Updates the GUI and calls the blur function
         def update_image(blurFactor):
             if module3.get_data("imageList") == None:
-                default_image = Image.open(module2.get_config("defaultImg"))          
+                default_image = Image.open(module2.resource_path(module2.get_config("defaultImg")))          
             else:
-                default_image = Image.open(module3.get_data("currentImage"))
+                default_image = Image.open(module2.resource_path(module3.get_data("currentImage")))
 
             default_image = default_image.resize((400, 300), Image.LANCZOS)
             blurredImg = module4.blur(default_image, blurFactor)

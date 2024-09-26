@@ -1,7 +1,7 @@
 import threading
 import logging
 import pickle
-import os
+import os, sys
 
 configuration = {
     "portVar" : "COM4",
@@ -12,14 +12,25 @@ configuration = {
     "stick" : ["Red"]#, "Green", "Blue", "Yellow"]
 }
 
+def resource_path(relative_path):#Got this from ChatGpt
+    try:
+        # If the app is run as an executable, PyInstaller sets this attribute
+        base_path = sys._MEIPASS
+    except AttributeError:
+        # When running the script directly, use the current directory
+        base_path = os.path.abspath(".")
+    
+    # Join the base path with the relative resource path
+    return os.path.join(base_path, relative_path)
+
 #Basic logging for debug
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(threadName)s - %(message)s', filename="assets/basic.log")
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(threadName)s - %(message)s', filename=resource_path("assets/basic.log"))
 logger = logging.getLogger("app_logger")
 
 #Threading locks so data isn't corrupted or overwritten
 data_lock = threading.Lock()
 
-config_file_path = "assets/config.pkl"
+config_file_path = resource_path("assets/config.pkl")
 
 def load_config():
     global configuration
