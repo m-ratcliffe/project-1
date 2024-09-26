@@ -1,12 +1,12 @@
 import serial.tools.list_ports
-import data, config, time
-from config import logger
+import module3, module2, time
+from module2 import logger
 
 #Pulls data from the arduino
 def arduino_connect():
     serialInst = serial.Serial()  
     serialInst.baudrate = 9600
-    serialInst.port = config.get_config("portVar")
+    serialInst.port = module2.get_config("portVar")
     serialInst.open()
 
     while True:
@@ -14,9 +14,9 @@ def arduino_connect():
             packet = serialInst.readline().decode("utf").rstrip("\r\n")
             if packet != 0:
                 logger.debug("arduino_connect attempting to aquire data lock")
-                with config.data_lock:
+                with module2.data_lock:
                     logger.debug("arduino_connect aquired data lock")
-                    data.write_data("sensorData", packet)
+                    module3.write_data("sensorData", packet)
                 logger.debug("arduino_connect released data lock")
                 packet = 0
             time.sleep(0.1)
