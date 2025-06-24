@@ -849,3 +849,563 @@
 2025-06-24 13:42:35,825 - MainThread - rand data lock released
 2025-06-24 13:42:35,857 - MainThread - update_image completed
 2025-06-24 13:42:35,889 - MainThread - nextButton released data lock
+2025-06-24 13:44:28,277 - MainThread - getImage attempting to aquire data lock
+2025-06-24 13:44:28,277 - MainThread - ('C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/default.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-60597.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-65894.jpg')
+2025-06-24 13:44:28,277 - MainThread - getImage aquired data lock
+2025-06-24 13:44:28,277 - MainThread - getImage released data lock
+2025-06-24 13:44:28,835 - MainThread - update_image called
+2025-06-24 13:44:29,010 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:44:29,010 - MainThread - blur aquired data lock
+2025-06-24 13:44:29,010 - MainThread - blur released data lock
+2025-06-24 13:44:29,010 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A3
+2025-06-24 13:44:29,010 - MainThread - rand data lock aquired
+2025-06-24 13:44:29,010 - MainThread - rand data lock released
+2025-06-24 13:44:29,010 - MainThread - update_image completed
+2025-06-24 13:44:29,992 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:44:30,008 - MainThread - nextButton aquired data lock
+2025-06-24 13:44:30,009 - MainThread - update_image called
+2025-06-24 13:44:30,425 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:44:30,441 - MainThread - blur aquired data lock
+2025-06-24 13:44:30,441 - MainThread - blur released data lock
+2025-06-24 13:44:30,504 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B3
+2025-06-24 13:44:30,520 - MainThread - rand data lock aquired
+2025-06-24 13:44:30,520 - MainThread - rand data lock released
+2025-06-24 13:44:30,583 - MainThread - update_image completed
+2025-06-24 13:44:30,583 - MainThread - nextButton released data lock
+2025-06-24 13:45:08,335 - MainThread - update_image called
+2025-06-24 13:45:08,522 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:45:08,522 - MainThread - blur aquired data lock
+2025-06-24 13:45:08,522 - MainThread - blur released data lock
+2025-06-24 13:45:08,531 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B3
+2025-06-24 13:45:08,532 - MainThread - rand data lock aquired
+2025-06-24 13:45:08,532 - MainThread - rand data lock released
+2025-06-24 13:45:08,532 - MainThread - update_image completed
+2025-06-24 13:45:51,133 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:45:51,133 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:45:51,133 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:45:51,133 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A5, stick=Yellow
+2025-06-24 13:45:51,133 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:45:51,133 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:45:51,133 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:45:51,170 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:45:51,170 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:45:51,170 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:45:56,915 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:45:56,915 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:45:56,915 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:45:56,915 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A2, stick=Yellow
+2025-06-24 13:45:56,915 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:45:56,915 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:45:56,915 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:45:57,015 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:45:57,015 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:45:57,015 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:46:02,793 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:02,809 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:02,809 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:02,809 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A6, stick=Yellow
+2025-06-24 13:46:02,809 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:02,809 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:02,878 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:46:03,734 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:46:03,750 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:46:03,750 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:46:04,021 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole B4
+2025-06-24 13:46:04,043 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:46:04,043 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:46:04,122 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:46:04,122 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:46:04,122 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:46:04,122 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:46:11,618 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:11,618 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:11,618 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:11,618 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A13, stick=Yellow
+2025-06-24 13:46:11,618 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:11,618 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:11,618 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:46:11,656 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:46:11,656 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:46:11,656 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:46:12,638 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:12,653 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:12,653 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:12,653 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A13, stick=Yellow
+2025-06-24 13:46:12,653 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:12,653 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:12,653 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:46:12,722 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:46:12,722 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:46:12,722 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:46:19,976 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:19,992 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:19,992 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:19,992 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A7, stick=None
+2025-06-24 13:46:19,992 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:19,992 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:19,995 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:46:20,479 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:46:20,494 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:46:20,494 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:46:20,912 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole D3
+2025-06-24 13:46:20,928 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:46:20,928 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:46:21,028 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:46:21,060 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:46:21,076 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:46:21,076 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:46:44,619 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:44,619 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:44,619 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:44,619 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A15, stick=Yellow
+2025-06-24 13:46:44,619 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:44,619 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:44,619 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:46:44,639 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:46:44,639 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:46:44,639 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:46:45,476 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:45,492 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:45,492 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:50,695 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:50,695 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:50,695 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:50,695 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A14, stick=None
+2025-06-24 13:46:50,695 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:50,695 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:50,779 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:46:51,603 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:46:51,618 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:46:51,618 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:46:51,929 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole D4
+2025-06-24 13:46:51,929 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:46:51,929 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:46:51,961 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:46:51,961 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:46:51,977 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:46:51,977 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:46:53,744 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:53,776 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:53,776 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:53,776 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A15, stick=None
+2025-06-24 13:46:53,776 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:53,776 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:53,781 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:46:54,279 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:46:54,295 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:46:54,295 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:46:54,605 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole A1
+2025-06-24 13:46:54,636 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:46:54,636 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:46:54,684 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:46:54,716 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:46:54,716 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:46:54,716 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:46:58,708 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:46:58,724 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:46:58,724 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:46:58,724 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A1, stick=None
+2025-06-24 13:46:58,724 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:46:58,724 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:46:58,724 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:46:58,777 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:46:58,777 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:46:58,777 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:47:13,358 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:47:13,358 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:47:13,358 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:47:13,358 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A1, stick=None
+2025-06-24 13:47:13,358 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:47:13,359 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:47:13,359 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:47:13,395 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:47:13,395 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:47:13,396 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:47:19,212 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:47:19,212 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:47:19,212 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:47:19,212 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A0, stick=None
+2025-06-24 13:47:19,212 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:47:19,212 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:47:19,250 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:47:19,881 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:47:19,894 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:47:19,894 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:47:20,149 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole B1
+2025-06-24 13:47:20,165 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:47:20,165 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:47:20,260 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:47:20,260 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:47:20,260 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:47:20,260 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:47:27,759 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:47:27,765 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:47:27,765 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:47:27,765 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A4, stick=None
+2025-06-24 13:47:27,765 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:47:27,765 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:47:27,766 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:47:28,282 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:47:28,295 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:47:28,295 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:47:28,650 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole A2
+2025-06-24 13:47:28,666 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:47:28,666 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:47:28,762 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:47:28,809 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:47:28,809 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:47:28,809 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:47:44,079 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:47:44,110 - MainThread - nextButton aquired data lock
+2025-06-24 13:47:44,110 - MainThread - nextButton released data lock
+2025-06-24 13:47:55,361 - MainThread - getImage attempting to aquire data lock
+2025-06-24 13:47:55,377 - MainThread - ('C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-65894.jpg',)
+2025-06-24 13:47:55,392 - MainThread - getImage aquired data lock
+2025-06-24 13:47:55,392 - MainThread - getImage released data lock
+2025-06-24 13:47:56,748 - MainThread - update_image called
+2025-06-24 13:47:59,312 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:47:59,328 - MainThread - blur aquired data lock
+2025-06-24 13:47:59,328 - MainThread - blur released data lock
+2025-06-24 13:47:59,472 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A2
+2025-06-24 13:47:59,472 - MainThread - rand data lock aquired
+2025-06-24 13:47:59,472 - MainThread - rand data lock released
+2025-06-24 13:47:59,505 - MainThread - update_image completed
+2025-06-24 13:48:04,637 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:04,653 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:04,653 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:04,653 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A1, stick=None
+2025-06-24 13:48:04,653 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:04,653 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:04,690 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:48:06,024 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:48:06,024 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:48:06,024 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:48:06,357 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole A2
+2025-06-24 13:48:06,373 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:48:06,373 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:48:06,468 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:48:06,468 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:48:06,468 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:48:06,468 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:48:11,132 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:11,164 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:11,164 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:11,164 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A1, stick=None
+2025-06-24 13:48:11,164 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:11,164 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:11,200 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:48:12,608 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:48:12,639 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:48:12,639 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:48:12,781 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole B1
+2025-06-24 13:48:12,797 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:48:12,797 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:48:12,924 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:48:12,940 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:48:12,956 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:48:12,956 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:48:17,156 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:17,187 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:17,187 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:17,187 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A4, stick=None
+2025-06-24 13:48:17,187 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:17,187 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:17,210 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:48:18,621 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:48:18,668 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:48:18,668 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:48:18,985 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole D1
+2025-06-24 13:48:19,000 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:48:19,000 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:48:19,063 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:48:19,063 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:48:19,063 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:48:19,063 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:48:35,881 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:35,897 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:35,897 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:35,897 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A12, stick=None
+2025-06-24 13:48:35,897 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:35,897 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:35,918 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:48:36,917 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:48:36,932 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:48:36,932 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:48:37,204 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole B3
+2025-06-24 13:48:37,219 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:48:37,219 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:48:37,283 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:48:37,330 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:48:37,330 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:48:37,330 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:48:45,234 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:45,250 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:45,250 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:45,250 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A2, stick=None
+2025-06-24 13:48:45,250 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:45,250 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:45,250 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:48:45,257 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:48:45,257 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:48:45,257 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:48:47,708 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:47,724 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:47,724 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:47,724 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A2, stick=None
+2025-06-24 13:48:47,724 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:47,724 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:47,724 - Thread-3 (process_arduino_data) - process_arduino_data released data lock
+2025-06-24 13:48:47,809 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) attempting to aquire data lock
+2025-06-24 13:48:47,809 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) aquired data lock
+2025-06-24 13:48:47,809 - Thread-2 (update_image_threading) - update_image_threading(incorrect user action) released data lock
+2025-06-24 13:48:51,230 - Thread-1 (arduino_connect) - arduino_connect attempting to aquire data lock
+2025-06-24 13:48:51,246 - Thread-1 (arduino_connect) - arduino_connect aquired data lock
+2025-06-24 13:48:51,246 - Thread-1 (arduino_connect) - arduino_connect released data lock
+2025-06-24 13:48:51,246 - Thread-3 (process_arduino_data) - process_arduino_data received data: hole=A6, stick=None
+2025-06-24 13:48:51,246 - Thread-3 (process_arduino_data) - process_arduino_data attempting to aquire data lock
+2025-06-24 13:48:51,246 - Thread-3 (process_arduino_data) - process_arduino_data aquired data lock
+2025-06-24 13:48:51,267 - Thread-2 (update_image_threading) - update_image called
+2025-06-24 13:48:52,458 - Thread-2 (update_image_threading) - blur attempting to aquire data lock
+2025-06-24 13:48:52,474 - Thread-2 (update_image_threading) - blur aquired data lock
+2025-06-24 13:48:52,474 - Thread-2 (update_image_threading) - blur released data lock
+2025-06-24 13:48:52,664 - Thread-2 (update_image_threading) - rand attempting to aquire data lock: Place the Red Stick in Hole D2
+2025-06-24 13:48:52,680 - Thread-2 (update_image_threading) - rand data lock aquired
+2025-06-24 13:48:52,680 - Thread-2 (update_image_threading) - rand data lock released
+2025-06-24 13:48:52,728 - Thread-2 (update_image_threading) - update_image completed
+2025-06-24 13:48:52,760 - Thread-2 (update_image_threading) - update_image_threading attempting to aquire data lock
+2025-06-24 13:48:52,776 - Thread-2 (update_image_threading) - update_image_threading aquired data lock
+2025-06-24 13:48:52,776 - Thread-2 (update_image_threading) - update_image_threading released data lock
+2025-06-24 13:48:55,563 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:48:55,579 - MainThread - nextButton aquired data lock
+2025-06-24 13:48:55,579 - MainThread - update_image called
+2025-06-24 13:48:57,829 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:48:57,845 - MainThread - blur aquired data lock
+2025-06-24 13:48:57,845 - MainThread - blur released data lock
+2025-06-24 13:48:57,958 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C3
+2025-06-24 13:48:57,958 - MainThread - rand data lock aquired
+2025-06-24 13:48:57,958 - MainThread - rand data lock released
+2025-06-24 13:48:57,974 - MainThread - update_image completed
+2025-06-24 13:48:57,990 - MainThread - nextButton released data lock
+2025-06-24 13:49:15,948 - MainThread - getImage attempting to aquire data lock
+2025-06-24 13:49:15,964 - MainThread - ('C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/default.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-60597.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-65894.jpg')
+2025-06-24 13:49:15,980 - MainThread - getImage aquired data lock
+2025-06-24 13:49:15,980 - MainThread - getImage released data lock
+2025-06-24 13:49:17,969 - MainThread - update_image called
+2025-06-24 13:49:18,972 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:49:18,988 - MainThread - blur aquired data lock
+2025-06-24 13:49:18,988 - MainThread - blur released data lock
+2025-06-24 13:49:19,083 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C3
+2025-06-24 13:49:19,099 - MainThread - rand data lock aquired
+2025-06-24 13:49:19,099 - MainThread - rand data lock released
+2025-06-24 13:49:19,132 - MainThread - update_image completed
+2025-06-24 13:49:22,927 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:49:22,944 - MainThread - nextButton aquired data lock
+2025-06-24 13:49:22,944 - MainThread - update_image called
+2025-06-24 13:49:23,485 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:49:23,485 - MainThread - blur aquired data lock
+2025-06-24 13:49:23,485 - MainThread - blur released data lock
+2025-06-24 13:49:23,564 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B1
+2025-06-24 13:49:23,564 - MainThread - rand data lock aquired
+2025-06-24 13:49:23,564 - MainThread - rand data lock released
+2025-06-24 13:49:23,596 - MainThread - update_image completed
+2025-06-24 13:49:23,596 - MainThread - nextButton released data lock
+2025-06-24 13:49:24,980 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:49:24,996 - MainThread - nextButton aquired data lock
+2025-06-24 13:49:24,996 - MainThread - update_image called
+2025-06-24 13:49:27,285 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:49:27,364 - MainThread - blur aquired data lock
+2025-06-24 13:49:27,364 - MainThread - blur released data lock
+2025-06-24 13:49:27,476 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B2
+2025-06-24 13:49:27,492 - MainThread - rand data lock aquired
+2025-06-24 13:49:27,492 - MainThread - rand data lock released
+2025-06-24 13:49:27,508 - MainThread - update_image completed
+2025-06-24 13:49:27,523 - MainThread - nextButton released data lock
+2025-06-24 13:50:18,965 - MainThread - getImage attempting to aquire data lock
+2025-06-24 13:50:18,982 - MainThread - ('C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/default.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-60597.jpg', 'C:/Users/Michael/Documents/Final Project/project-1/project-1-main/Project/source/assets/pexels-pixabay-65894.jpg')
+2025-06-24 13:50:18,998 - MainThread - getImage aquired data lock
+2025-06-24 13:50:18,998 - MainThread - getImage released data lock
+2025-06-24 13:50:33,602 - MainThread - update_image called
+2025-06-24 13:50:34,749 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:50:34,765 - MainThread - blur aquired data lock
+2025-06-24 13:50:34,765 - MainThread - blur released data lock
+2025-06-24 13:50:34,877 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A3
+2025-06-24 13:50:34,909 - MainThread - rand data lock aquired
+2025-06-24 13:50:34,909 - MainThread - rand data lock released
+2025-06-24 13:50:34,925 - MainThread - update_image completed
+2025-06-24 13:50:42,683 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:50:42,731 - MainThread - nextButton aquired data lock
+2025-06-24 13:50:42,731 - MainThread - update_image called
+2025-06-24 13:50:43,784 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:50:43,817 - MainThread - blur aquired data lock
+2025-06-24 13:50:43,817 - MainThread - blur released data lock
+2025-06-24 13:50:43,912 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole D2
+2025-06-24 13:50:43,912 - MainThread - rand data lock aquired
+2025-06-24 13:50:43,912 - MainThread - rand data lock released
+2025-06-24 13:50:43,959 - MainThread - update_image completed
+2025-06-24 13:50:43,959 - MainThread - nextButton released data lock
+2025-06-24 13:50:46,611 - MainThread - nextButton attempting to aquire data lock
+2025-06-24 13:50:46,643 - MainThread - nextButton aquired data lock
+2025-06-24 13:50:46,643 - MainThread - update_image called
+2025-06-24 13:50:47,155 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:50:47,155 - MainThread - blur aquired data lock
+2025-06-24 13:50:47,155 - MainThread - blur released data lock
+2025-06-24 13:50:47,218 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A1
+2025-06-24 13:50:47,234 - MainThread - rand data lock aquired
+2025-06-24 13:50:47,234 - MainThread - rand data lock released
+2025-06-24 13:50:47,282 - MainThread - update_image completed
+2025-06-24 13:50:47,298 - MainThread - nextButton released data lock
+2025-06-24 13:57:39,963 - MainThread - update_image called
+2025-06-24 13:57:40,168 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:57:40,168 - MainThread - blur aquired data lock
+2025-06-24 13:57:40,168 - MainThread - blur released data lock
+2025-06-24 13:57:40,178 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole D1
+2025-06-24 13:57:40,178 - MainThread - rand data lock aquired
+2025-06-24 13:57:40,178 - MainThread - rand data lock released
+2025-06-24 13:57:40,179 - MainThread - update_image completed
+2025-06-24 13:57:48,163 - MainThread - update_image called
+2025-06-24 13:57:49,286 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:57:49,302 - MainThread - blur aquired data lock
+2025-06-24 13:57:49,302 - MainThread - blur released data lock
+2025-06-24 13:57:49,414 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole D4
+2025-06-24 13:57:49,430 - MainThread - rand data lock aquired
+2025-06-24 13:57:49,430 - MainThread - rand data lock released
+2025-06-24 13:57:49,446 - MainThread - update_image completed
+2025-06-24 13:57:57,086 - MainThread - update_image called
+2025-06-24 13:57:58,111 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:57:58,126 - MainThread - blur aquired data lock
+2025-06-24 13:57:58,126 - MainThread - blur released data lock
+2025-06-24 13:57:58,237 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B2
+2025-06-24 13:57:58,252 - MainThread - rand data lock aquired
+2025-06-24 13:57:58,252 - MainThread - rand data lock released
+2025-06-24 13:57:58,300 - MainThread - update_image completed
+2025-06-24 13:58:02,263 - MainThread - update_image called
+2025-06-24 13:58:03,398 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:58:03,414 - MainThread - blur aquired data lock
+2025-06-24 13:58:03,414 - MainThread - blur released data lock
+2025-06-24 13:58:03,494 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A1
+2025-06-24 13:58:03,494 - MainThread - rand data lock aquired
+2025-06-24 13:58:03,494 - MainThread - rand data lock released
+2025-06-24 13:58:03,510 - MainThread - update_image completed
+2025-06-24 13:58:43,225 - MainThread - update_image called
+2025-06-24 13:58:43,417 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:58:43,417 - MainThread - blur aquired data lock
+2025-06-24 13:58:43,417 - MainThread - blur released data lock
+2025-06-24 13:58:43,427 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole D1
+2025-06-24 13:58:43,427 - MainThread - rand data lock aquired
+2025-06-24 13:58:43,427 - MainThread - rand data lock released
+2025-06-24 13:58:43,428 - MainThread - update_image completed
+2025-06-24 13:58:47,889 - MainThread - update_image called
+2025-06-24 13:58:48,928 - MainThread - blur attempting to aquire data lock
+2025-06-24 13:58:48,943 - MainThread - blur aquired data lock
+2025-06-24 13:58:48,943 - MainThread - blur released data lock
+2025-06-24 13:58:49,006 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C4
+2025-06-24 13:58:49,038 - MainThread - rand data lock aquired
+2025-06-24 13:58:49,038 - MainThread - rand data lock released
+2025-06-24 13:58:49,085 - MainThread - update_image completed
+2025-06-24 13:58:58,198 - MainThread - getImage attempting to aquire data lock
+2025-06-24 13:58:58,230 - MainThread - 
+2025-06-24 13:58:58,248 - MainThread - getImage aquired data lock
+2025-06-24 14:00:29,334 - MainThread - getImage attempting to aquire data lock
+2025-06-24 14:00:29,334 - MainThread - 
+2025-06-24 14:00:29,334 - MainThread - getImage aquired data lock
+2025-06-24 14:01:56,949 - MainThread - getImage attempting to aquire data lock
+2025-06-24 14:01:56,949 - MainThread - 
+2025-06-24 14:01:56,950 - MainThread - getImage aquired data lock
+2025-06-24 14:02:54,029 - MainThread - getImage attempting to aquire data lock
+2025-06-24 14:02:55,975 - MainThread - 
+2025-06-24 14:09:12,915 - MainThread - update_image called
+2025-06-24 14:09:13,101 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:09:13,101 - MainThread - blur aquired data lock
+2025-06-24 14:09:13,101 - MainThread - blur released data lock
+2025-06-24 14:09:13,111 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A3
+2025-06-24 14:09:13,111 - MainThread - rand data lock aquired
+2025-06-24 14:09:13,111 - MainThread - rand data lock released
+2025-06-24 14:09:13,111 - MainThread - update_image completed
+2025-06-24 14:14:28,399 - MainThread - update_image called
+2025-06-24 14:14:28,532 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:28,532 - MainThread - blur aquired data lock
+2025-06-24 14:14:28,532 - MainThread - blur released data lock
+2025-06-24 14:14:28,542 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B1
+2025-06-24 14:14:28,542 - MainThread - rand data lock aquired
+2025-06-24 14:14:28,542 - MainThread - rand data lock released
+2025-06-24 14:14:28,544 - MainThread - update_image completed
+2025-06-24 14:14:28,824 - MainThread - update_image called
+2025-06-24 14:14:29,706 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:29,722 - MainThread - blur aquired data lock
+2025-06-24 14:14:29,722 - MainThread - blur released data lock
+2025-06-24 14:14:29,807 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole D3
+2025-06-24 14:14:29,840 - MainThread - rand data lock aquired
+2025-06-24 14:14:29,840 - MainThread - rand data lock released
+2025-06-24 14:14:29,855 - MainThread - update_image completed
+2025-06-24 14:14:30,039 - MainThread - update_image called
+2025-06-24 14:14:31,313 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:31,322 - MainThread - blur aquired data lock
+2025-06-24 14:14:31,322 - MainThread - blur released data lock
+2025-06-24 14:14:31,424 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C1
+2025-06-24 14:14:31,440 - MainThread - rand data lock aquired
+2025-06-24 14:14:31,440 - MainThread - rand data lock released
+2025-06-24 14:14:31,456 - MainThread - update_image completed
+2025-06-24 14:14:33,054 - MainThread - update_image called
+2025-06-24 14:14:34,149 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:34,165 - MainThread - blur aquired data lock
+2025-06-24 14:14:34,165 - MainThread - blur released data lock
+2025-06-24 14:14:34,244 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A3
+2025-06-24 14:14:34,276 - MainThread - rand data lock aquired
+2025-06-24 14:14:34,276 - MainThread - rand data lock released
+2025-06-24 14:14:34,307 - MainThread - update_image completed
+2025-06-24 14:14:34,386 - MainThread - update_image called
+2025-06-24 14:14:35,435 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:35,466 - MainThread - blur aquired data lock
+2025-06-24 14:14:35,466 - MainThread - blur released data lock
+2025-06-24 14:14:35,561 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B1
+2025-06-24 14:14:35,577 - MainThread - rand data lock aquired
+2025-06-24 14:14:35,578 - MainThread - rand data lock released
+2025-06-24 14:14:35,609 - MainThread - update_image completed
+2025-06-24 14:14:35,640 - MainThread - update_image called
+2025-06-24 14:14:36,691 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:36,691 - MainThread - blur aquired data lock
+2025-06-24 14:14:36,691 - MainThread - blur released data lock
+2025-06-24 14:14:36,769 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B3
+2025-06-24 14:14:36,785 - MainThread - rand data lock aquired
+2025-06-24 14:14:36,785 - MainThread - rand data lock released
+2025-06-24 14:14:36,848 - MainThread - update_image completed
+2025-06-24 14:14:36,896 - MainThread - update_image called
+2025-06-24 14:14:38,041 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:38,041 - MainThread - blur aquired data lock
+2025-06-24 14:14:38,041 - MainThread - blur released data lock
+2025-06-24 14:14:38,136 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C4
+2025-06-24 14:14:38,152 - MainThread - rand data lock aquired
+2025-06-24 14:14:38,152 - MainThread - rand data lock released
+2025-06-24 14:14:38,168 - MainThread - update_image completed
+2025-06-24 14:14:38,288 - MainThread - update_image called
+2025-06-24 14:14:39,326 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:39,358 - MainThread - blur aquired data lock
+2025-06-24 14:14:39,358 - MainThread - blur released data lock
+2025-06-24 14:14:39,457 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C3
+2025-06-24 14:14:39,473 - MainThread - rand data lock aquired
+2025-06-24 14:14:39,473 - MainThread - rand data lock released
+2025-06-24 14:14:39,507 - MainThread - update_image completed
+2025-06-24 14:14:39,723 - MainThread - update_image called
+2025-06-24 14:14:40,779 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:40,779 - MainThread - blur aquired data lock
+2025-06-24 14:14:40,779 - MainThread - blur released data lock
+2025-06-24 14:14:40,857 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole C2
+2025-06-24 14:14:40,889 - MainThread - rand data lock aquired
+2025-06-24 14:14:40,889 - MainThread - rand data lock released
+2025-06-24 14:14:40,889 - MainThread - update_image completed
+2025-06-24 14:14:41,176 - MainThread - update_image called
+2025-06-24 14:14:42,230 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:14:42,244 - MainThread - blur aquired data lock
+2025-06-24 14:14:42,244 - MainThread - blur released data lock
+2025-06-24 14:14:42,373 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole B4
+2025-06-24 14:14:42,389 - MainThread - rand data lock aquired
+2025-06-24 14:14:42,389 - MainThread - rand data lock released
+2025-06-24 14:14:42,420 - MainThread - update_image completed
+2025-06-24 14:15:06,531 - MainThread - update_image called
+2025-06-24 14:15:06,729 - MainThread - blur attempting to aquire data lock
+2025-06-24 14:15:06,729 - MainThread - blur aquired data lock
+2025-06-24 14:15:06,729 - MainThread - blur released data lock
+2025-06-24 14:15:06,740 - MainThread - rand attempting to aquire data lock: Place the Red Stick in Hole A3
+2025-06-24 14:15:06,740 - MainThread - rand data lock aquired
+2025-06-24 14:15:06,740 - MainThread - rand data lock released
+2025-06-24 14:15:06,741 - MainThread - update_image completed

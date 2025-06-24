@@ -29,11 +29,13 @@ def getImage():
                         "*.jpg *.jpeg *.png"),))
     logger.debug("getImage attempting to aquire data lock")
     logger.debug(filenames)
-    with module2.data_lock:
-        logger.debug("getImage aquired data lock")
-        data_store.write_data("imageList", list(filenames))
-        data_store.write_data("currentImage", module2.resource_path(data_store.get_data("imageList")[0]))
-    logger.debug("getImage released data lock")
+    if filenames != '':
+        with module2.data_lock:
+            logger.debug("getImage aquired data lock")
+            data_store.write_data("imageList", list(filenames))
+            data_store.write_data("currentImage", module2.resource_path(data_store.get_data("imageList")[0]))
+        logger.debug("getImage released data lock")
+
 
 #Set the initial file directory of pictures
 def getInitialDir():

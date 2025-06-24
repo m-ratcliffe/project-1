@@ -32,7 +32,9 @@ class myGUI:
     #Main runtime window
     def run(self):
         self.window.withdraw() #Hides the main window
-        
+
+        if hasattr(self, "stwindow") and self.stwindow.winfo_exists():
+            self.stwindow.withdraw()
          # Check if runWindow exists and is still a valid window
         if hasattr(self, "runWindow") and self.runWindow.winfo_exists():
             self.runWindow.deiconify()
@@ -180,6 +182,10 @@ class myGUI:
         logger.debug("update_image completed")
 
     def settingButtons(self):
+        if hasattr(self, "stwindow") and self.stwindow.winfo_exists():
+            self.stwindow.deiconify()
+            return
+
         self.stwindow = tk.Toplevel()
 
         self.stwindow.geometry("300x360")
