@@ -7,7 +7,6 @@ shared_data = {
     "blurFactor" : 9,
     "imgNum" : 0,
     "correctUserAction": None,
-    "userCheck" : False,
     "arduinoConnect" : False,
 }
 

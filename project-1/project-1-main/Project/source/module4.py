@@ -28,6 +28,7 @@ def getImage():
             filetypes = (("Image files",
                         "*.jpg *.jpeg *.png"),))
     logger.debug("getImage attempting to aquire data lock")
+    logger.debug(filenames)
     with module2.data_lock:
         logger.debug("getImage aquired data lock")
         data_store.write_data("imageList", list(filenames))

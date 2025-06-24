@@ -84,7 +84,8 @@ class myGUI:
                     data_store.write_data("arduinoConnect", True)
             except serial.SerialException:
                 self.runWindow.withdraw()
-                messagebox.showerror("Error", "Could not connect to Arduino. Please make sure it is plugged in and the correct Port is selected.")     
+                messagebox.showerror("Error", "Could not connect to Arduino. Please make sure it is plugged in and the correct Port is selected.")  
+                self.window.deiconify()   
     
 
     #Requires the user to click a button before the next image is selected(can also be done preemptively if another image is desired)
@@ -93,19 +94,19 @@ class myGUI:
         
         with module2.data_lock:
             logger.debug("nextButton aquired data lock")
-            data_store.write_data("userCheck", False)
             data_store.write_data("blurFactor", 9)
 
-            if data_store.get_data("imageList") is not None:
-                imgNum = data_store.get_data("imgNum")
-                imgNum += 1
-                imgList = data_store.get_data("imageList")
-                imgListLen = len(imgList) - 1
-                if imgNum > imgListLen:
-                    imgNum = 0
-                data_store.write_data("imgNum", imgNum)
-                currentImg = imgList[imgNum]
-                data_store.write_data("currentImage", currentImg)
+        if data_store.get_data("imageList") is not None:
+            imgNum = data_store.get_data("imgNum")
+            imgNum += 1
+            imgList = data_store.get_data("imageList")
+            imgListLen = len(imgList) - 1
+            if imgNum > imgListLen:
+                imgNum = 0
+            data_store.write_data("imgNum", imgNum)
+            currentImg = imgList[imgNum]
+            data_store.write_data("currentImage", currentImg)
+            self.update_image(9)
 
         logger.debug("nextButton released data lock")
         
@@ -113,8 +114,7 @@ class myGUI:
     def update_image_threading(self):
         while True:
             result = data_store.get_data("correctUserAction")
-            next = data_store.get_data("userCheck")
-            if result == True and next == False:
+            if result == True:
                 # Correct
                 self.userAction("green")
                 self.update_image(data_store.get_data("blurFactor"))
@@ -122,7 +122,6 @@ class myGUI:
                 with module2.data_lock:
                     logger.debug("update_image_threading aquired data lock")
                     data_store.write_data("correctUserAction", None)
-                self.rand()
                 logger.debug("update_image_threading released data lock")
             elif result == False:
                 # Incorrect
@@ -131,7 +130,6 @@ class myGUI:
                 with module2.data_lock:
                     logger.debug("update_image_threading(incorrect user action) aquired data lock")
                     data_store.write_data("correctUserAction", None)
-                self.rand()
                 logger.debug("update_image_threading(incorrect user action) released data lock")
             
             time.sleep(0.1)
@@ -145,6 +143,7 @@ class myGUI:
         randStick = ran.choice(stick)
         position = "Place the " + randStick + " Stick in Hole " + randHole
         logger.debug(f"rand attempting to aquire data lock: {position}")
+
         with module2.data_lock:
             logger.debug("rand data lock aquired")
             data_store.write_data("stick", randStick)

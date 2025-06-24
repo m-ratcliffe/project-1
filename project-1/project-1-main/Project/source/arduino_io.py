@@ -19,7 +19,6 @@ def arduino_connect():
                         logger.debug("arduino_connect aquired data lock")
                         data_store.write_data("sensorData", packet)
                     logger.debug("arduino_connect released data lock")
-                    print(packet)
                     
                 #time.sleep(0.1)
     except serial.SerialException as e:
